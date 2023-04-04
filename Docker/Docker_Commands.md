@@ -1,5 +1,5 @@
 ## Basic commands
-backup test /
+
 ##### List docker processes
 
 ```bash
