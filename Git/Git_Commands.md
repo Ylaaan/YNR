@@ -7,7 +7,7 @@ git config --global color.ui auto
 ```
 
 ---
-
+/commi
 ## Update & Synchronise
 
 ##### Add remote repository
