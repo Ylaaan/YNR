@@ -23,7 +23,7 @@ docker run [image]:[tag]
 
 Options :
 - Expose port : ``-p [host-port]:[container-port]``
-- Mount volume : ``-v `[host-path]`:[container-path]``
+- Mount volume : ``-v [host-path]:[container-path]``
 
 ##### Stop container
 
