@@ -1,3 +1,5 @@
+Allow this git : ``git config --global --add safe.directory G:/Obsidian/Documentation ``
+
 ##  Account config
 
 ```bash
@@ -7,7 +9,7 @@ git config --global color.ui auto
 ```
 
 ---
-/commi
+
 ## Update & Synchronise
 
 ##### Add remote repository
