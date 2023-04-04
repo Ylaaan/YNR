@@ -1,7 +1,12 @@
+
+## Install Docker
+
+[https://docs.docker.com/engine/install/ubuntu/](https://docs.docker.com/engine/install/ubuntu/ "https://docs.docker.com/engine/install/ubuntu/")
+
 ## Basic commands
 
 ##### List docker processes
-/comm
+
 ```bash
 docker ps
 ```
@@ -29,6 +34,12 @@ Options :
 
 ```bash
 docker container stop [container-id]
+```
+
+##### Delete container
+/comm
+```bash
+docker container rm [container-id]
 ```
 
 ##### Execute command in container
