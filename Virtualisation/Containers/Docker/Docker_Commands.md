@@ -1,7 +1,7 @@
 
 ## Install Docker
 
-[https://docs.docker.com/engine/install/ubuntu/](https://docs.docker.com/engine/install/ubuntu/ "https://docs.docker.com/engine/install/ubuntu/")
+[On Ubuntu](https://docs.docker.com/engine/install/ubuntu/ "https://docs.docker.com/engine/install/ubuntu/")
 
 ## Basic commands
 
@@ -37,7 +37,7 @@ docker container stop [container-id]
 ```
 
 ##### Delete container
-/comm
+
 ```bash
 docker container rm [container-id]
 ```
