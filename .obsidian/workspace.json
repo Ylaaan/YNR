@@ -11,8 +11,12 @@
             "id": "ec259534e93dea13",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Git/Git_Commands.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           },
           {
@@ -27,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,14 +160,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "093398bc886fae0a",
+  "active": "ec259534e93dea13",
   "lastOpenFiles": [
+    "Virtualisation/Containers/Docker/Docker_Commands.md",
+    "Virtualisation/Containers/Kubernetes/Kubernetes_Commands.md",
     "Git/Git_Commands.md",
     "Git",
     "Virtualisation/Containers",
     "Virtualisation",
-    "Virtualisation/Containers/Docker/Docker_Commands.md",
-    "Virtualisation/Containers/Kubernetes/Kubernetes_Commands.md",
     "NFS/NFS.md",
     "Inetum/CICD/Elasticsearch/Migration/Migration_données_Elasticsearch.md",
     "Docker Commands.md"
