@@ -138,12 +138,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,7 +156,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "de77205df1fcd825",
+  "active": "093398bc886fae0a",
   "lastOpenFiles": [
     "Git/Git_Commands.md",
     "Git",
