@@ -4,5 +4,5 @@ jq is a tool for processing Json
 
 ```bash
 [json-input] | jq
-``
-
+```
+/comm
