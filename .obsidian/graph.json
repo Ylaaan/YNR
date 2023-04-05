@@ -8,10 +8,10 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:Virtualisation/Containers",
+      "query": "path:Virtualisation/Containers/Docker",
       "color": {
         "a": 1,
-        "rgb": 17069
+        "rgb": 2718202
       }
     },
     {
@@ -19,6 +19,20 @@
       "color": {
         "a": 1,
         "rgb": 14704722
+      }
+    },
+    {
+      "query": "path:Parsing_Tools",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "path:Virtualisation/Containers/Kubernetes",
+      "color": {
+        "a": 1,
+        "rgb": 1516213
       }
     }
   ],
@@ -32,6 +46,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.4019828977761035,
+  "scale": 1.0000000000000024,
   "close": true
 }

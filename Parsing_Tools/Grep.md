@@ -1,10 +1,10 @@
-Grep looks for patterns.
+grep looks for patterns.
 
 ```bash
 grep [option] [pattern] [file]
 ```
 
-or /comm
+or 
 
 ```bash
 [command] | grep [option] [pattern]
