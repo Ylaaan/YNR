@@ -5,13 +5,20 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:Virtualisation/Containers",
       "color": {
         "a": 1,
-        "rgb": 5399264
+        "rgb": 17069
+      }
+    },
+    {
+      "query": "path:Git",
+      "color": {
+        "a": 1,
+        "rgb": 14704722
       }
     }
   ],
@@ -26,5 +33,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 1.4019828977761035,
-  "close": false
+  "close": true
 }

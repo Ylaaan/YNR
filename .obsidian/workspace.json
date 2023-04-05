@@ -8,30 +8,63 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ec259534e93dea13",
+            "id": "de77205df1fcd825",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "b01718f0a6b8215e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Git_Commands.md",
-                "mode": "preview",
+                "file": "Parsing_Tools/JQ.md",
+                "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "de77205df1fcd825",
+            "id": "bee3884cc6c8c1ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Git_Commands.md",
+                "file": "Parsing_Tools/Sed.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "98cf6b145e363e18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Parsing_Tools/Awk.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "27ac728d0bdef76d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Parsing_Tools/Grep.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -97,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/Git_Commands.md",
+                "file": "Parsing_Tools/Grep.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/Git_Commands.md",
+                "file": "Parsing_Tools/Grep.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/Git_Commands.md"
+                "file": "Parsing_Tools/Grep.md"
               }
             }
           }
@@ -160,15 +193,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ec259534e93dea13",
+  "active": "27ac728d0bdef76d",
   "lastOpenFiles": [
-    "Virtualisation/Containers/Docker/Docker_Commands.md",
-    "Virtualisation/Containers/Kubernetes/Kubernetes_Commands.md",
     "Git/Git_Commands.md",
+    "Parsing_Tools/Grep.md",
+    "Parsing_Tools/Awk.md",
+    "Parsing_Tools/JQ.md",
+    "Parsing_Tools/Sed.md",
+    "Parsing_Tools",
+    "NFS/NFS.md",
+    "Virtualisation/Containers/Kubernetes/Kubernetes_Commands.md",
+    "Virtualisation/Containers/Docker/Docker_Commands.md",
     "Git",
     "Virtualisation/Containers",
     "Virtualisation",
-    "NFS/NFS.md",
     "Inetum/CICD/Elasticsearch/Migration/Migration_données_Elasticsearch.md",
     "Docker Commands.md"
   ]
