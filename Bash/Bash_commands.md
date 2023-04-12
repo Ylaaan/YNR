@@ -1,5 +1,13 @@
 ## Move in the file system
 
+##### Show current directory
+
+```bash
+pwd
+```
+
+##### Move to path
+
 ```bash
 cd [path]
 ```
@@ -9,6 +17,37 @@ Path structure :
 - Path of current directory : ``./``
 - Path of home directory : ``~/``
 - Path of root directory : ``/``
+
+##### Locate binary, source, manual-page files of a command
+
+```bash
+whereis [name]
+```
+
+Options : 
+- Search for binarires only : ``-b``
+- Search manuals and info  only : ``-m``
+- Search for sources only : ``-s``
+
+##### Check current user
+
+```bash
+whoami
+```
+
+##### Change current user
+
+```bash
+su - [user]
+```
+
+To change to root without root password : ``sudo su -``
+
+##### Exit user or command line
+
+```bash
+exit
+```
 
 ## File manipulation
 
@@ -74,21 +113,13 @@ echo "[content-to-add]" [>|>>] [file]
 Use ``>`` to replace content.
 Use ``>>`` to append.
 
-## Posix permissions
+## POSIX permissions
 
 ##### Execute file with root permissions
 
 ```bash
 sudo [command]
 ```
-
-##### Change current user
-
-```bash
-su - [user]
-```
-
-To change to root without root password : ``sudo su -``
 
 ##### Change file rights
 
@@ -141,3 +172,20 @@ Options :
 - Human readable : ``-h``
 - Show all : ``-a`` or ``--all``
 - Show only local : ``-l`` or ``--local``
+
+## Environement variables
+
+##### List environement variables
+
+```bash
+env
+```
+
+##### Set environement variable
+
+```bash
+export [name]=[value]
+```
+
+Options :
+- Show exported variables : ``-p``
