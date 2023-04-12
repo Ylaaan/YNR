@@ -1,4 +1,32 @@
+## Move in the file system
+
+```bash
+cd [path]
+```
+
+Path structure :
+- Path of parent directory : ``../``
+- Path of current directory : ``./``
+- Path of home directory : ``~/``
+- Path of root directory : ``/``
+
 ## File manipulation
+
+##### List files
+
+```bash
+ls [directory-to-list]
+```
+
+Options : 
+- Also list hidden files : ``-a`` or ``--all``
+- List files permissions : ``-l``
+- Human-readable mode : ``-h``
+- List with colors : ``-C``
+- Only list directories : ``-d`` or ``--directory``
+- Show inodes : ``-i``
+- Recursive mode : ``-R`` or ``--recursive``
+- One file per line : ``-1``
 
 ##### Copy files
 
@@ -57,7 +85,7 @@ Options :
 chgrp [new-group] [file]
 ```
 
-Options : /comm
+Options : 
 - Verbose : ``-v`` or ``--verbose``
 - Verbose but only when changes are applied : ``-c`` or ``--changes``
 - Recursive mode : ``-R`` or ``--recursive``
