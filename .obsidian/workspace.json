@@ -85,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bash/Bash_commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bash/Bash_commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +122,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Bash/Bash_commands.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -148,12 +144,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "763e04c65e230383",
+  "active": "3e69f0ca1d03c598",
   "lastOpenFiles": [
-    "NFS/NFS.md",
     "Bash/Bash_commands.md",
+    "Bash/Change_Hostname.md",
+    "Untitled",
+    "NFS/NFS.md",
     "Virtualisation/Containers/Docker/Docker_Commands.md",
-    "Bash/Untitled.md",
+    "Bash/Change_Hostname.md",
     "Bash/Bash_Commands.md",
     "Virtualisation/Containers/Docker/Docker_Compose.md",
     "Virtualisation/Containers/Docker/Dockerfile.md",
