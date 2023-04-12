@@ -54,7 +54,7 @@ git init
 
 ##### Clone a repository
 
-```
+```bash
 git clone [repository-url]
 ```
 

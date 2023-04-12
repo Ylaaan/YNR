@@ -62,6 +62,20 @@ touch [file-path]
 
 ## Posix permissions
 
+##### Execute file with root permissions
+
+```bash
+sudo [command]
+```
+
+##### Change current user
+
+```bash
+su - [user]
+```
+
+To change to root without root password : ``sudo su -``
+
 ##### Change file rights
 
 ```bash
