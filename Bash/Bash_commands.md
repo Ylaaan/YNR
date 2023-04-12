@@ -117,3 +117,27 @@ Options :
 - Verbose : ``-v`` or ``--verbose``
 - Verbose but only when changes are applied : ``-c`` or ``--changes``
 - Recursive mode : ``-R`` or ``--recursive``
+
+## System Checks
+
+##### Check running processes
+
+```bash
+ps [option]
+```
+
+Options :
+- List all processes : ``-A``
+- Only running : ``-r``
+- All processes on this terminal : ``-T``
+
+##### Check file system
+
+```bash
+df [options]
+```
+
+Options : 
+- Human readable : ``-h``
+- Show all : ``-a`` or ``--all``
+- Show only local : ``-l`` or ``--local``
