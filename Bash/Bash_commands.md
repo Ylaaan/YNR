@@ -28,6 +28,12 @@ Options :
 - Recursive mode : ``-R`` or ``--recursive``
 - One file per line : ``-1``
 
+##### Print file's content
+
+```bash
+cat [file-path]
+```
+
 ##### Copy files
 
 ```bash
@@ -42,7 +48,6 @@ Options :
 ```bash
 mv [source-path] [destination-path]
 ```
-
 
 ##### Remove file
 
@@ -59,6 +64,15 @@ Options :
 ```bash
 touch [file-path]
 ```
+
+##### Add content in file without editor
+
+```bash
+echo "[content-to-add]" [>|>>] [file]
+```
+
+Use ``>`` to replace content.
+Use ``>>`` to append.
 
 ## Posix permissions
 

@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Virtualisation/Containers/Docker/Docker_Commands.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4554ba33275d4d8c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bash/Bash_Commands.md",
+                "file": "Bash/Bash_commands.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Virtualisation/Containers/Docker/Docker_Commands.md",
+                "file": "Bash/Bash_commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Virtualisation/Containers/Docker/Docker_Commands.md",
+                "file": "Bash/Bash_commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Virtualisation/Containers/Docker/Docker_Commands.md"
+                "file": "Bash/Bash_commands.md"
               }
             }
           }
@@ -162,13 +150,14 @@
   },
   "active": "763e04c65e230383",
   "lastOpenFiles": [
+    "Bash/Untitled.md",
+    "Bash/Bash_Commands.md",
+    "Virtualisation/Containers/Docker/Docker_Commands.md",
     "Virtualisation/Containers/Docker/Docker_Compose.md",
     "Virtualisation/Containers/Docker/Dockerfile.md",
     "Virtualisation/Containers/Kubernetes/Kubernetes_YAML.md",
     "Virtualisation/Containers/Kubernetes/Kubernetes_Commands.md",
-    "Bash/Bash_Commands.md",
     "Git/Git_Commands.md",
-    "Virtualisation/Containers/Docker/Docker_Commands.md",
     "Bash",
     "Untitled.canvas",
     "Parsing_Tools/Grep.md",
