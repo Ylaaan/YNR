@@ -122,7 +122,7 @@ git branch [branch-name]
 git checkout
 ```
 
-##### Merge Branches
+##### Merge branches
 
 ```bash
 git merge [branch-name]
