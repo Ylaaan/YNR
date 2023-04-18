@@ -10,7 +10,7 @@ git config --global color.ui auto
 
 ---
 
-## Update & Synchronise
+## 🔄Update & Synchronise🔄
 
 ##### Add remote repository
 
@@ -44,7 +44,7 @@ git pull
 
 ---
 
-## Initiate
+## 🆕Initiate🆕
 
 ##### Create new Git repository
 
@@ -60,7 +60,7 @@ git clone [repository-url]
 
 ---
 
-## Staging
+## ⏫Staging⏫
 
 ##### Show status
 
@@ -102,7 +102,7 @@ Options :
 
 ---
 
-## Branches 
+## 🔀Branches🔀 
 
 ##### List branches
 
@@ -139,7 +139,7 @@ Options :
 
 ---
 
-## Rewrite history
+## 📜Rewrite history📜
 
 ##### Apply commits form current branch ahead of specified branch
 
