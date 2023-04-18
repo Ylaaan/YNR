@@ -41,4 +41,11 @@ services:
       TEST3: value3
 ```
 
-##### 
+##### Remove docker compose
+
+```bash
+docker compose down
+```
+
+Options :
+- Also remove volumes : ``--volumes``
