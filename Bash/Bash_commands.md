@@ -154,7 +154,7 @@ Options :
 ##### Check running processes
 
 ```bash
-ps [option]
+ps [options]
 ```
 
 Options :
