@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Virtualisation/Containers/Docker/Docker_Commands.md",
+                "file": "Virtualisation/Containers/Docker/Docker_Compose.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f7830ae82e2aad85",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Playground.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Virtualisation/Containers/Docker/Docker_Commands.md",
+                "file": "Playground.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Virtualisation/Containers/Docker/Docker_Commands.md",
+                "file": "Playground.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Virtualisation/Containers/Docker/Docker_Commands.md"
+                "file": "Playground.md"
               }
             }
           }
@@ -147,18 +160,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fe467e0be0715713",
+  "active": "f7830ae82e2aad85",
   "lastOpenFiles": [
     "Virtualisation/Containers/Docker/Docker_Compose.md",
-    "Git/Git_Commands.md",
-    "Bash/Bash_commands.md",
-    "Virtualisation/Containers/Docker/Docker_Commands.md",
-    "NFS/NFS.md",
-    "Virtualisation/Containers/Kubernetes/Kubernetes_YAML.md",
+    "Playground.md",
     "Virtualisation/Containers/Docker/Dockerfile.md",
+    "Virtualisation/Containers/Docker/Docker_Commands.md",
+    "Bash/Bash_commands.md",
+    "Git/Git_Commands.md",
+    "NFS/NFS.md",
+    "Parsing_Tools/Awk.md",
+    "Parsing_Tools/Sed.md",
+    "Parsing_Tools/jq.md",
+    "Parsing_Tools/Grep.md",
+    "Virtualisation/Containers/Kubernetes/Kubernetes_YAML.md",
     "Virtualisation/Containers/Kubernetes/Kubernetes_Commands.md",
     "Untitled.canvas",
-    "Parsing_Tools/Grep.md",
     "Bash/Bash_Commands.md",
     "Bash/Change_Hostname.md",
     "Untitled",
@@ -166,7 +183,6 @@
     "Bash",
     "Parsing_Tools/sed.md",
     "Parsing_Tools/grep.md",
-    "Parsing_Tools/jq.md",
     "Parsing_Tools/awk.md",
     "Parsing_Tools/JQ.md",
     "Parsing_Tools",
