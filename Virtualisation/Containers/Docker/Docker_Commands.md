@@ -4,13 +4,13 @@
 
 ## 🎓Basic commands🎓
 
-##### List docker processes
+### List docker processes
 
 ```bash
 docker ps
 ```
 
-##### List docker containers
+### List docker containers
 
 ```bash
 docker container ls
@@ -19,7 +19,7 @@ docker container ls
 Options : 
 - Include stopped containers : ``-a``
 
-##### Start container
+### Start container
 
 ```bash
 docker run [image]:[tag]
@@ -31,25 +31,25 @@ Options :
 
 You can also use [[Docker_Compose|Docker compose]]
 
-##### Stop container
+### Stop container
 
 ```bash
 docker container stop [container-id]
 ```
 
-##### Delete container
+### Delete container
 
 ```bash
 docker container rm [container-id]
 ```
 
-##### Execute command in container
+### Execute command in container
 
 ``` bash
 docker exec -it [container] [command]
 ```
 
-##### Copy file from/to a container
+### Copy file from/to a container
 
 ```bash
 sudo docker cp [source-path] [destination-path]
@@ -59,18 +59,18 @@ sudo docker cp [source-path] [destination-path]
 
 ## 🐝Docker Swarm🐝
 
-##### List nodes
+### List nodes
 
 ```bash
 docker node ls
 ```
 
-##### Create docker network
+### Create docker network
 ```bash
 docker network create --driver=overlay [name]
 ```
 
-##### Create docker service
+### Create docker service
 
 ```bash
 docker service create --name=[service-name] [image]:[tag]
@@ -82,7 +82,7 @@ Options :
 - Pass environnement variable : ``-e [variable-name]=[value]``
 - Mount a volume : ``--mount type=bind,source="[host-path]",target="[container-path]"``
 
-##### Scale Service
+### Scale Service
 
 ```bash
 docker service scale [service-name]=[number-of-replicas]
@@ -94,13 +94,13 @@ docker service scale [service-name]=[number-of-replicas]
 
 [Dockerhub](https://hub.docker.com/)
 
-##### Pull image
+### Pull image
 
 ```bash
 docker pull [image]:[tag]
 ```
 
-##### Build Dockerfile (in the same directory as the Dockerfile)
+### Build Dockerfile (in the same directory as the Dockerfile)
 
 ```bash
 docker build -t [image-name]:[tag] .
@@ -108,13 +108,13 @@ docker build -t [image-name]:[tag] .
 
 [[Dockerfile|Dockerfile structure]]
 
-##### List docker images
+### List docker images
 
 ```bash
 docker images
 ```
 
-##### Remove docker image
+### Remove docker image
 
 ```bash
 docker image rm [image-id]

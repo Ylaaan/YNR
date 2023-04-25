@@ -12,12 +12,12 @@
 
 ## 🎓Basic commands🎓
 
-##### Join a namespace :
+### Join a namespace :
 ``` bash
 kubectl config set-context --current --namespace=[namespace]
 ```
 
-##### List Objects
+### List Objects
 ``` bash
 kubectl get [object]
 ```
@@ -27,17 +27,17 @@ Options :
 - All namespaces : `-A`
 - Specific namespace : `-n=[name]`
 
-##### Describe Objects
+### Describe Objects
 ``` bash
 kubectl describe [object]
 ```
 
-##### Get YAML definition of an object
+### Get YAML definition of an object
 ``` bash 
 kubectl get [object] -o yaml
 ```
 
-##### Scale a statefulset/deployment
+### Scale a statefulset/deployment
 ``` bash
 kubectl scale [object] --replicas=[number-of-replicas]
 ```
@@ -46,7 +46,7 @@ kubectl scale [object] --replicas=[number-of-replicas]
 
 ## 📦Pod commands📦
 
-##### Execute command on a pod (Similar to [[Docker_Commands#Execute command in container|Docker]] exec)
+### Execute command on a pod (Similar to [[Docker_Commands#Execute command in container|Docker]] exec)
 
 ``` bash
 kubectl exec [pod] -- [command]
@@ -59,7 +59,7 @@ Options :
 Example :
 - `kubectl exec -it [pod] -- bash`
 
-##### Copy file inside pod
+### Copy file inside pod
 ``` bash
 kubectl cp [file-to-copy] [pod]:[where-to-copy]
 ```
@@ -68,19 +68,19 @@ kubectl cp [file-to-copy] [pod]:[where-to-copy]
 
 ## 🎛️Node commands🎛️
 
-##### Disable scheduling on a node
+### Disable scheduling on a node
 
 ``` bash
 kubectl cordon [node-name]
 ```
 
-##### Enable scheduling on a node
+### Enable scheduling on a node
 
 ``` bash
 kubectl uncordon [node-name]
 ```
 
-##### See Nodes hardware usage (CPU,MEMORY)
+### See Nodes hardware usage (CPU,MEMORY)
 
 ``` bash
 kubectl top nodes

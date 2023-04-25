@@ -1,12 +1,12 @@
 ## 📂Move in the file system📂
 
-##### Show current directory
+### Show current directory
 
 ```bash
 pwd
 ```
 
-##### Move to path
+### Move to path
 
 ```bash
 cd [path]
@@ -18,7 +18,7 @@ Path structure :
 - Path of home directory : ``~/``
 - Path of root directory : ``/``
 
-##### Locate binary, source, manual-page files of a command
+### Locate binary, source, manual-page files of a command
 
 ```bash
 whereis [name]
@@ -29,13 +29,13 @@ Options :
 - Search manuals and info  only : ``-m``
 - Search for sources only : ``-s``
 
-##### Check current user
+### Check current user
 
 ```bash
 whoami
 ```
 
-##### Change current user
+### Change current user
 
 ```bash
 su - [user]
@@ -43,7 +43,7 @@ su - [user]
 
 To change to root without root password : ``sudo su -``
 
-##### Exit user or command line
+### Exit user or command line
 
 ```bash
 exit
@@ -51,7 +51,7 @@ exit
 
 ## 📝File manipulation📝
 
-##### List files
+### List files
 
 ```bash
 ls [directory-to-list]
@@ -67,13 +67,13 @@ Options :
 - Recursive mode : ``-R`` or ``--recursive``
 - One file per line : ``-1``
 
-##### Print file's content
+### Print file's content
 
 ```bash
 cat [file-path]
 ```
 
-##### Copy files
+### Copy files
 
 ```bash
 cp [source-path] [destination-path]
@@ -82,13 +82,13 @@ cp [source-path] [destination-path]
 Options : 
 - Copy recursively : ``-r``
 
-##### Move files
+### Move files
 
 ```bash
 mv [source-path] [destination-path]
 ```
 
-##### Remove file
+### Remove file
 
 ```bash
 rm [file-path]
@@ -98,13 +98,13 @@ Options :
 - Remove even if not empty : ``-f``
 - Remove even if file is a directory : ``-r``
 
-##### Create file
+### Create file
 
 ```bash
 touch [file-path]
 ```
 
-##### Add content in file without editor
+### Add content in file without editor
 
 ```bash
 echo "[content-to-add]" [>|>>] [file]
@@ -115,19 +115,19 @@ Use ``>>`` to append.
 
 ## ✔️POSIX permissions❌
 
-##### Execute file with root permissions
+### Execute file with root permissions
 
 ```bash
 sudo [command]
 ```
 
-##### Change file rights
+### Change file rights
 
 ```bash
 chmod +[r;w;x] [file-path]
 ```
 
-##### Change owner of file
+### Change owner of file
 
 ```bash
 chown [new-owner]:[new-group] [file]
@@ -138,7 +138,7 @@ Options :
 - Verbose but only when changes are applied : ``-c`` or ``--changes``
 - Recursive mode : ``-R`` or ``--recursive``
 
-##### Change owner group of file
+### Change owner group of file
 
 ```bash
 chgrp [new-group] [file]
@@ -151,7 +151,7 @@ Options :
 
 ## 📊System Checks📊
 
-##### Check running processes
+### Check running processes
 
 ```bash
 ps [options]
@@ -162,7 +162,7 @@ Options :
 - Only running : ``-r``
 - All processes on this terminal : ``-T``
 
-##### Check file system
+### Check file system
 
 ```bash
 df [options]
@@ -175,13 +175,13 @@ Options :
 
 ## ⛰️Environement variables🏞️
 
-##### List environement variables
+### List environement variables
 
 ```bash
 env
 ```
 
-##### Set environement variable
+### Set environement variable
 
 ```bash
 export [name]=[value]

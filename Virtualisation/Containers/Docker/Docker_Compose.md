@@ -2,7 +2,7 @@
 
 The docker compose file is a YAML file, it allows the user to use a file definition of a container instead of using commands.
 
-##### List compose projects
+### List compose projects
 
 ```bash
 docker compose ls
@@ -11,7 +11,7 @@ docker compose ls
 Options : 
 - Also list stopped composes : ``-a``
 
-##### Using docker compose
+### Using docker compose
 
 ```bash
 docker compose up
@@ -21,7 +21,7 @@ Options :
 - Run in backgroud : ``-d``
 - Specify file : ``-f [file-name]``
 
-##### Example : 
+### Example : 
 
 *docker-compose.yaml*
 
@@ -41,7 +41,7 @@ services:
       TEST3: value3
 ```
 
-##### Remove docker compose
+### Remove docker compose
 
 ```bash
 docker compose down

@@ -12,31 +12,31 @@ git config --global color.ui auto
 
 ## 🔄Update & Synchronise🔄
 
-##### Add remote repository
+### Add remote repository
 
 ```bash 
 git remote add [alias] [url]
 ```
 
-##### Get all branches from remote
+### Get all branches from remote
 
 ```bash
 git fetch [alias]
 ```
 
-##### Merge remote and local branch
+### Merge remote and local branch
 
 ```bash
 git merge [alias]/[branch]
 ```
 
-##### Send local branch to remote
+### Send local branch to remote
 
 ```bash
 git push [alias] [branch]
 ```
 
-##### Fetch and merge commits form remote branch (Sync from remote to local)
+### Fetch and merge commits form remote branch (Sync from remote to local)
 
 ```bash
 git pull
@@ -46,13 +46,13 @@ git pull
 
 ## 🆕Initiate🆕
 
-##### Create new Git repository
+### Create new Git repository
 
 ```bash
 git init
 ```
 
-##### Clone a repository
+### Clone a repository
 
 ```bash
 git clone [repository-url]
@@ -62,13 +62,13 @@ git clone [repository-url]
 
 ## ⏫Staging⏫
 
-##### Show status
+### Show status
 
 ```bash
 git status
 ```
 
-##### Add files to stage
+### Add files to stage
 
 ```bash
 git add [files]
@@ -76,13 +76,13 @@ git add [files]
 
 For all files : ``*``
 
-##### Unstage file (doesn't cancel changes)
+### Unstage file (doesn't cancel changes)
 
 ```bash
 git reset
 ```
 
-##### Get changes
+### Get changes
 
 ```bash
 git diff
@@ -91,7 +91,7 @@ git diff
 Options : 
 - Show non commited changes : ``--staged``
 
-##### Commit changes
+### Commit changes
 
 ```bash
 git commit -m "[message]"
@@ -104,31 +104,31 @@ Options :
 
 ## 🔀Branches🔀 
 
-##### List branches
+### List branches
 
 ```bash
 git branch
 ```
 
-##### Create new branch at commit
+### Create new branch at commit
 
 ```bash
 git branch [branch-name]
 ```
 
-##### Change branch
+### Change branch
 
 ```bash
 git checkout
 ```
 
-##### Merge branches
+### Merge branches
 
 ```bash
 git merge [branch-name]
 ```
 
-##### Show commit history
+### Show commit history
 
 ```bash
 git log
@@ -141,13 +141,13 @@ Options :
 
 ## 📜Rewrite history📜
 
-##### Apply commits form current branch ahead of specified branch
+### Apply commits form current branch ahead of specified branch
 
 ```bash
 git rebase [branch-name]
 ```
 
-##### Clear staging, rewrite work tree from specified commit
+### Clear staging, rewrite work tree from specified commit
 
 ```bash
 git reset --hard [commit]
