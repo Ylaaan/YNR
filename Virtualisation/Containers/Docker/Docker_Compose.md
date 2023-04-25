@@ -1,6 +1,6 @@
 # Docker Compose
 
-[[Docker_Commands]]
+[Docker_Commands](Docker_Commands.md#docker-commands)
 
 The docker compose file is a YAML file, it allows the user to use a file definition of a container instead of using commands.
 

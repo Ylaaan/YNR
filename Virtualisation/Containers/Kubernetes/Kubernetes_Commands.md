@@ -54,7 +54,7 @@ kubectl scale [object] --replicas=[number-of-replicas]
 
 ## 📦Pod commands📦
 
-### Execute command on a pod (Similar to [[Docker_Commands#Execute command in container|Docker]] exec)
+### Execute command on a pod (Similar to [docker exec](../Docker/Docker_Commands.md#execute-command-in-container) exec)
 
 ``` bash
 kubectl exec [pod] -- [command]
