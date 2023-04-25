@@ -1,3 +1,5 @@
+# Grep
+
 grep looks for patterns.
 
 ```bash
@@ -11,6 +13,7 @@ or
 ```
 
 Options :
+
 - Print lines after pattern :  ``-A [number-of-lines]`` or ``--after-context=[number-of-lines]``
 - Print lines before pattern :  ``-B [number-of-lines]`` or ``--before-context=[number-of-lines]
 - Print number of patterns : ``-c`` or ``--count``
