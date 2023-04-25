@@ -16,6 +16,6 @@ mount -t nfs [nfs-server-address]:[path-to-shared-folder] [mount-point-path]
 
 Add mount in /etc/fstab :
 
-```
+```plaintext
 [nfs-server-address]:[shared-folder-path]        [mount-point-path]        nfs     defaults        0       0
 ```
