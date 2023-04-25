@@ -1,8 +1,8 @@
-## Install Docker 
+## ⬇️Install Docker⬇️
 
 [On Ubuntu](https://docs.docker.com/engine/install/ubuntu/ "https://docs.docker.com/engine/install/ubuntu/")
 
-## Basic commands 
+## 🎓Basic commands🎓
 
 ##### List docker processes
 
@@ -56,7 +56,7 @@ sudo docker cp [source-path] [destination-path]
 
 ---
 
-## Docker Swarm
+## 🐝Docker Swarm🐝
 
 ##### List nodes
 
@@ -89,7 +89,7 @@ docker service scale [service-name]=[number-of-replicas]
 
 ---
 
-## Docker images
+## 📀Docker images📀
 
 [Dockerhub](https://hub.docker.com/)
 
