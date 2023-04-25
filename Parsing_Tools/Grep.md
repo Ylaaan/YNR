@@ -6,7 +6,7 @@ grep looks for patterns.
 grep [option] [pattern] [file]
 ```
 
-or 
+or
 
 ```bash
 [command] | grep [option] [pattern]

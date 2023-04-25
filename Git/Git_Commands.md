@@ -1,6 +1,6 @@
 # Git Commands
 
-Allow this git : ``git config --global --add safe.directory G:/Obsidian/Documentation ``
+Allow this git : ``git config --global --add safe.directory G:/Obsidian/Documentation``
 
 ## 👤Account config👤
 
@@ -16,7 +16,7 @@ git config --global color.ui auto
 
 ### Add remote repository
 
-```bash 
+```bash
 git remote add [alias] [url]
 ```
 
@@ -90,8 +90,9 @@ git reset
 git diff
 ```
 
-Options : 
-- Show non commited changes : ``--staged``
+Options :
+
+- Show non commited ch.anges : ``--staged``
 
 ### Commit changes
 
@@ -99,12 +100,13 @@ Options :
 git commit -m "[message]"
 ```
 
-Options : 
+Options :
+
 - Commit message : ``-m "[message]"``
 
 ---
 
-## 🔀Branches🔀 
+## 🔀Branches🔀
 
 ### List branches
 
@@ -137,6 +139,7 @@ git log
 ```
 
 Options :
+
 - Follow changes across renames : ``--follow``
 
 ---
