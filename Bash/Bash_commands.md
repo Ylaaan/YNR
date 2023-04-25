@@ -190,7 +190,8 @@ export [name]=[value]
 Options :
 - Show exported variables : ``-p``
 
-
+ 
+>[!INFO]
 >test
 >test1
 >test2
