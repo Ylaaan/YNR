@@ -1,7 +1,7 @@
 
 ##### [[Docker_Commands#Build Dockerfile (in the same directory as the Dockerfile)|Build the dockerfile]]
 
-## Structure
+## 🏗️Structure🏗️
 
 ### Name
 
@@ -24,7 +24,7 @@ RUN echo this is \
 a multiline command
 ```
 
-### Instructions
+### 🛂Instructions🛂
 
 ##### Use a Docker image as a base 
 
@@ -61,7 +61,7 @@ Environment variables are supported by the following list of instructions in the
 -   `VOLUME`
 -   `WORKDIR`
 
-## .dockerignore
+## 🚫.dockerignore🚫
 
 Similarly to  .gitignore files, a "**.dockerignore**" file can be created. This comments allows file to be ignored by docker even if they are in the Dockerfiles, context.
 
