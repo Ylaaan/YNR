@@ -1,43 +1,51 @@
+# Kubernetes Commands
+
 ## 🧩Kubernetes Objects🧩
 
- - namespaces
- - deployments (deploy)
- - statefulset
- - services (svc)
- - persistent volume claim (pvc)
- - pods (pod)
- - nodes
- 
+- namespaces
+- deployments (deploy)
+- statefulset
+- services (svc)
+- persistent volume claim (pvc)
+- pods (pod)
+- nodes
+
 ---
 
 ## 🎓Basic commands🎓
 
-### Join a namespace :
+### Join a namespace
+
 ``` bash
 kubectl config set-context --current --namespace=[namespace]
 ```
 
 ### List Objects
+
 ``` bash
 kubectl get [object]
 ```
 
-Options : 
+Options :
+
 - More info : `-o wide`
 - All namespaces : `-A`
 - Specific namespace : `-n=[name]`
 
 ### Describe Objects
+
 ``` bash
 kubectl describe [object]
 ```
 
 ### Get YAML definition of an object
-``` bash 
+
+``` bash
 kubectl get [object] -o yaml
 ```
 
 ### Scale a statefulset/deployment
+
 ``` bash
 kubectl scale [object] --replicas=[number-of-replicas]
 ```
@@ -53,13 +61,16 @@ kubectl exec [pod] -- [command]
 ```
 
 Options :
+
 - Interactive mode : `-it`
 - Specify specific container : `-c [container]`
 
 Example :
+
 - `kubectl exec -it [pod] -- bash`
 
 ### Copy file inside pod
+
 ``` bash
 kubectl cp [file-to-copy] [pod]:[where-to-copy]
 ```

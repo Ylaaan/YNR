@@ -1,5 +1,6 @@
+# DockerFile
 
-### [[Docker_Commands#Build Dockerfile (in the same directory as the Dockerfile)|Build the dockerfile]]
+[Docker_Commands](Docker_Commands.md#docker-commands)
 
 ## 🏗️Structure🏗️
 
@@ -26,7 +27,7 @@ a multiline command
 
 ### 🛂Instructions🛂
 
-### Use a Docker image as a base 
+### Use a Docker image as a base
 
 **Be carefull :** This must be used at the begining of the file!
 
@@ -35,6 +36,7 @@ FROM [image]:[tag]
 ```
 
 Options :
+
 - Specify a platform : ``--platform=``
 
 ### Copy files from host to image
@@ -50,22 +52,23 @@ ENV [variable]=[value]
 ```
 
 Environment variables are supported by the following list of instructions in the `Dockerfile`:
--   `ADD`
--   `COPY`
--   `ENV`
--   `EXPOSE`
--   `FROM`
--   `LABEL`
--   `STOPSIGNAL`
--   `USER`
--   `VOLUME`
--   `WORKDIR`
+
+- `ADD`
+- `COPY`
+- `ENV`
+- `EXPOSE`
+- `FROM`
+- `LABEL`
+- `STOPSIGNAL`
+- `USER`
+- `VOLUME`
+- `WORKDIR`
 
 ## 🚫.dockerignore🚫
 
 Similarly to  .gitignore files, a "**.dockerignore**" file can be created. This comments allows file to be ignored by docker even if they are in the Dockerfiles, context.
 
-### Comments
+### .dockerignore Comments
 
 ```dockerignore
 # This is still a comment

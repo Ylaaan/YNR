@@ -1,3 +1,5 @@
+# Docker Commands
+
 ## ⬇️Install Docker⬇️
 
 [On Ubuntu](https://docs.docker.com/engine/install/ubuntu/ "https://docs.docker.com/engine/install/ubuntu/")
@@ -16,7 +18,8 @@ docker ps
 docker container ls
 ```
 
-Options : 
+Options :
+
 - Include stopped containers : ``-a``
 
 ### Start container
@@ -26,6 +29,7 @@ docker run [image]:[tag]
 ```
 
 Options :
+
 - Expose port : ``-p [host-port]:[container-port]``
 - Mount volume : ``-v [host-path]:[container-path]``
 
@@ -66,6 +70,7 @@ docker node ls
 ```
 
 ### Create docker network
+
 ```bash
 docker network create --driver=overlay [name]
 ```
@@ -76,7 +81,8 @@ docker network create --driver=overlay [name]
 docker service create --name=[service-name] [image]:[tag]
 ```
 
-Options : 
+Options :
+
 - Use a network : ``--network=[network-name]``
 - Expose a port : ``-p [host-port]:[container-port]``
 - Pass environnement variable : ``-e [variable-name]=[value]``
