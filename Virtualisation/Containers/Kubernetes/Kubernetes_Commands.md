@@ -1,4 +1,4 @@
-## Kubernetes Objects
+## 🧩Kubernetes Objects🧩
 
  - namespaces
  - deployments (deploy)
@@ -10,7 +10,7 @@
  
 ---
 
-## Basic commands
+## 🎓Basic commands🎓
 
 ##### Join a namespace :
 ``` bash
@@ -44,7 +44,7 @@ kubectl scale [object] --replicas=[number-of-replicas]
 
 ---
 
-## Pod commands
+## 📦Pod commands📦
 
 ##### Execute command on a pod (Similar to [[Docker_Commands#Execute command in container|Docker]] exec)
 
@@ -66,7 +66,7 @@ kubectl cp [file-to-copy] [pod]:[where-to-copy]
 
 ---
 
-## Node commands
+## 🎛️Node commands🎛️
 
 ##### Disable scheduling on a node
 
