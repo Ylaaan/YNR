@@ -1,4 +1,4 @@
-## Move in the file system
+## 📂Move in the file system📂
 
 ##### Show current directory
 
@@ -49,7 +49,7 @@ To change to root without root password : ``sudo su -``
 exit
 ```
 
-## File manipulation
+## 📝File manipulation📝
 
 ##### List files
 
@@ -113,7 +113,7 @@ echo "[content-to-add]" [>|>>] [file]
 Use ``>`` to replace content.
 Use ``>>`` to append.
 
-## POSIX permissions
+## ✔️POSIX permissions❌
 
 ##### Execute file with root permissions
 
@@ -149,7 +149,7 @@ Options :
 - Verbose but only when changes are applied : ``-c`` or ``--changes``
 - Recursive mode : ``-R`` or ``--recursive``
 
-## System Checks
+## 📊System Checks📊
 
 ##### Check running processes
 
@@ -173,7 +173,7 @@ Options :
 - Show all : ``-a`` or ``--all``
 - Show only local : ``-l`` or ``--local``
 
-## Environement variables
+## ⛰️Environement variables🏞️
 
 ##### List environement variables
 
