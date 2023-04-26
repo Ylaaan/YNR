@@ -33,7 +33,7 @@ Options :
 - Expose port : ``-p [host-port]:[container-port]``
 - Mount volume : ``-v [host-path]:[container-path]``
 
-You can also use [Docker_Compose](Docker_Compose.md#docker-compose)
+You can also use [Docker compose](Docker_Compose.md#docker-compose)
 
 ### Stop container
 
