@@ -29,6 +29,8 @@ kubectl get [object]
 Options :
 
 - More info : `-o wide`
+- Get YAML format `-o yaml`
+- Get JSON format `-o yaml`
 - All namespaces : `-A`
 - Specific namespace : `-n=[name]`
 
