@@ -1,0 +1,11 @@
+# Ceph bashrc
+
+While using ceph on a kubernetes cluster, you must set an alias tu use the ceph command directly.
+
+## files contents
+
+Add this to the bashrc
+
+```bash
+alias ceph='kubctl -n [nom-namespace] exec -it deploy/rook-ceph-tools -- ceph'
+```
