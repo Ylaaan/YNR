@@ -52,6 +52,26 @@ kubectl get [object] -o yaml
 kubectl scale [object] --replicas=[number-of-replicas]
 ```
 
+### Create an Object form YAML definition
+
+``` bash
+kubectl create -f [path-to-file]
+```
+
+Options :
+
+- Dry run : `--dry-run=client`
+
+### Update/Create an Object form YAML definition
+
+``` bash
+kubectl apply -f [path-to-file]
+```
+
+Options :
+
+- Dry run : `--dry-run=client`
+
 ---
 
 ## 📦Pod commands📦
