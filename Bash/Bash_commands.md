@@ -202,7 +202,15 @@ Options :
 
 - Show exported variables : ``-p``
 
-## .bashrc
+## 💻 .bashrc 💻
+
+### Fix watch command for aliases
+
+Add the folowing line to your .bashrc file. 
+
+```bash
+alias watch="watch ";
+```
 
 ### Apply Modifications of .bashrc file
 
