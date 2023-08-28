@@ -201,3 +201,11 @@ export [name]=[value]
 Options :
 
 - Show exported variables : ``-p``
+
+## .bashrc
+
+### Apply Modifications of .bashrc file
+
+```bash
+source ~/.bashrc
+```
