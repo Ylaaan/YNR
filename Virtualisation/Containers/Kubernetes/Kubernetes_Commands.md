@@ -1,5 +1,7 @@
 # Kubernetes Commands
 
+You can also manage your Kubernetes apps with [Helm](Helm/Helm_Commands.md)
+
 ## 🧩Kubernetes Objects🧩
 
 - namespaces
