@@ -117,7 +117,7 @@ helm search repo [keyword]
 #### In Hub
 
 ```bash
-helm search hum [keyword]
+helm search hub [keyword]
 ```
 
 ## Other commands
