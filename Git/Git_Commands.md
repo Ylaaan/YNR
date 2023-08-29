@@ -1,7 +1,5 @@
 # Git Commands
 
-Allow this git : ``git config --global --add safe.directory G:/Obsidian/Documentation``
-
 ## 👤Account config👤
 
 ```bash
