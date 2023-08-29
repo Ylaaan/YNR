@@ -6,9 +6,11 @@
 - deployments (deploy)
 - statefulset
 - services (svc)
+- ingress
 - persistent volume claim (pvc)
 - pods (pod)
 - nodes
+- jobs (job)
 
 ---
 
@@ -30,7 +32,7 @@ Options :
 
 - More info : `-o wide`
 - Get YAML format : `-o yaml`
-- Get JSON format : `-o yaml`
+- Get JSON format : `-o json`
 - All namespaces : `-A`
 - Specific namespace : `-n=[name]`
 
