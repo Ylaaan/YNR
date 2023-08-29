@@ -10,7 +10,7 @@ Helm help you managing and installing apps on [Kubernetes](../Kubernetes_Command
 helm list
 ```
 
-Options : 
+Options :
 
 - Show in all namespaces : `--all-namespaces` or `-A`
 - Show by deployment date : `--date`
@@ -76,7 +76,7 @@ Options :
 helm rollback [release] [revision]
 ```
 
-Options : 
+Options :
 
 - Remove newly create ressources on fail : `--cleanup-on-fail`
 
@@ -106,7 +106,7 @@ helm repo update
 helm repo remove
 ```
 
-### Search for charts 
+### Search for charts
 
 #### In Repositories
 

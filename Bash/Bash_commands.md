@@ -206,7 +206,7 @@ Options :
 
 ### Fix watch command for aliases
 
-Add the folowing line to your .bashrc file. 
+Add the folowing line to your .bashrc file.
 
 ```bash
 alias watch="watch ";
