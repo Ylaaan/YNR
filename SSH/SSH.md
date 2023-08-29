@@ -84,6 +84,6 @@ sudo vim /etc/ssh/sshd_config
 
 Change the field `PasswordAuthentication` from `yes` to `no`.
 
-### Restart the SSH service.
+### Restart the SSH service
 
 Depends on the OS.
