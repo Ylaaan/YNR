@@ -112,7 +112,6 @@ Options :
 - Get logs from all containers in pod : `--all-containers`
 - Get logs from a delete pod : `--previous [pod-name]`
 
-
 ## 🎛️Node commands🎛️
 
 ### Disable scheduling on a node
