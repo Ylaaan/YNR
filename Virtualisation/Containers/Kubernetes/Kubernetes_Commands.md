@@ -101,7 +101,17 @@ Example :
 kubectl cp [file-to-copy] [pod]:[where-to-copy]
 ```
 
----
+### Get logsform a pod
+
+```bash
+kubectl logs [pod-name]
+```
+
+Options :
+
+- Get logs from all containers in pod : `--all-containers`
+- Get logs from a delete pod : `--previous [pod-name]`
+
 
 ## 🎛️Node commands🎛️
 
@@ -121,4 +131,14 @@ kubectl uncordon [node-name]
 
 ``` bash
 kubectl top nodes
+```
+
+## Kubelet
+
+### Get Kubelet logs of a node
+
+On a kubernetes node :
+
+```bash
+journalctl -u kubelet
 ```
