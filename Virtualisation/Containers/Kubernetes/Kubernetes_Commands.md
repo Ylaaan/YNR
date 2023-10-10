@@ -18,6 +18,14 @@ You can also manage your Kubernetes apps with [Helm](Helm/Helm_Commands.md)
 
 ## 🎓Basic commands🎓
 
+### Configure kubectl
+
+```bash
+mkdir -p $HOME/.kube
+sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
+```
+
 ### Join a namespace
 
 ``` bash
@@ -141,3 +149,21 @@ On a kubernetes node :
 ```bash
 journalctl -u kubelet
 ```
+
+### Restart kubelet
+
+```bash
+systemctl restart kubelet
+```
+
+## Certificates
+
+### Check cezrtificates expirations
+
+```bash
+sudo kubeadm certs check-expiration
+```
+
+### Renew certificates
+
+[Follow theses instructions](./Kubernetes_Renew_Certificates.md)
