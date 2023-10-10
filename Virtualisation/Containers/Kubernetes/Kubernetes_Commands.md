@@ -5,7 +5,7 @@ You can also manage your Kubernetes apps with [Helm](Helm/Helm_Commands.md)
 ## 🧩Kubernetes Objects🧩
 
 - namespaces
-- deployments (deploy)
+- [deployments](./Kubernetes_deployment.md) (deploy)
 - statefulset
 - services (svc)
 - ingress
@@ -13,6 +13,8 @@ You can also manage your Kubernetes apps with [Helm](Helm/Helm_Commands.md)
 - pods (pod)
 - nodes
 - jobs (job)
+- [daemonset](./Kubernetes_DaemonSets.md)
+- [taints](./Kubernetes_taints_tolerations_nodeSelector_affinity.md)
 
 ## 🎓Basic commands🎓
 
