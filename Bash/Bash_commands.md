@@ -184,6 +184,17 @@ Options :
 - Show all : ``-a`` or ``--all``
 - Show only local : ``-l`` or ``--local``
 
+### Check file size
+
+```bash
+du [options] [./*]
+```
+
+Options :
+
+- Summarize : ``-s``
+- Human-readable mode : ``-h``
+
 ## ⛰️Environement variables🏞️
 
 ### List environement variables
@@ -217,3 +228,15 @@ alias watch="watch ";
 ```bash
 source ~/.bashrc
 ```
+
+### Functions
+
+For more complicated case using a function might be better
+
+```bash
+function [name_of_the_function]() {
+    [commands]
+}
+```
+
+You can use ``$@`` to get all parameters at once
