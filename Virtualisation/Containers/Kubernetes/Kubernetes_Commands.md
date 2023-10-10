@@ -14,9 +14,9 @@ You can also manage your Kubernetes apps with [Helm](Helm/Helm_Commands.md)
 - nodes
 - jobs (job)
 
----
-
 ## 🎓Basic commands🎓
+
+Most of theses commands can use [labels and selectors](./Kubernetes_labels_selectors.md)
 
 ### Configure kubectl
 
@@ -57,6 +57,14 @@ kubectl describe [object]
 ``` bash
 kubectl get [object] -o yaml
 ```
+
+You can also get the definition in a cleaner manner, edit the configuration :
+
+```bash
+kubectl edit [object]
+```
+
+Then save the changes, in another file.
 
 ### Scale a statefulset/deployment
 
