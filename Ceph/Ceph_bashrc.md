@@ -9,3 +9,5 @@ Add this to the bashrc
 ```bash
 alias ceph='kubctl -n <nom-namespace> exec -it deploy/rook-ceph-tools -- ceph'
 ```
+
+[Apply bashrc](../Bash/Bash_commands.md#apply-modifications-of-bashrc-file)

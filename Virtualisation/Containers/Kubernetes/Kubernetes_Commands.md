@@ -168,7 +168,7 @@ systemctl restart kubelet
 
 ## Certificates
 
-### Check cezrtificates expirations
+### Check certificates expirations
 
 ```bash
 sudo kubeadm certs check-expiration

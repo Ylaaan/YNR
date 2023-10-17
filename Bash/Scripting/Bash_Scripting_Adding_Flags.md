@@ -1,10 +1,12 @@
 # Adding option flags to a script
 
+[Basic bash commands](../Bash_commands.md)
+
 Allows bash script to use options flags (`-<letter> and --<word>` format.)
 
 ## Exemple
 
-An exemple with the `-a`,`-b`and `-h`/`--help` flags.
+An exemple with the `-a`,`-b` and `-h`/`--help` flags.
 
 ```bash
 while test $# -gt 0; do

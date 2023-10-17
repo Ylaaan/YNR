@@ -24,4 +24,4 @@ mv /tmp/manifests .
 
 ## 📜Configure kubectl with the new certificates📜
 
-[Follow these instructions.](./Kubernetes_Commands.md#configure-kubectl)
+[Follow these instructions.](./Kubernetes_commands.md#check-certificates-expirations)
