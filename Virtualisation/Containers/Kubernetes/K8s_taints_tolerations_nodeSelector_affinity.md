@@ -1,4 +1,4 @@
-# Kubernetes taints,tolerations,node selector,affinity
+# K8s taints,node selector,affinity
 
 ## Taints
 
@@ -57,7 +57,7 @@ spec:
     key: value
 ```
 
-The `key: value` pair used here is a [label](./Kubernetes_labels_selectors.md#label-a-node) defined on nodes.
+The `key: value` pair used here is a [label](./K8s_labels_selectors.md#label-a-node) defined on nodes.
 
 ## Node affinity
 

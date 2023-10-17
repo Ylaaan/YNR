@@ -1,11 +1,11 @@
-# Kubernetes Commands
+# K8s Commands
 
 You can also manage your Kubernetes apps with [Helm](Helm/Helm_Commands.md)
 
 ## 🧩Kubernetes Objects🧩
 
 - namespaces
-- [deployments](./Kubernetes_deployment.md) (deploy)
+- [deployments](./K8s_deployment.md) (deploy)
 - statefulset
 - services (svc)
 - ingress
@@ -13,12 +13,12 @@ You can also manage your Kubernetes apps with [Helm](Helm/Helm_Commands.md)
 - pods (pod)
 - nodes
 - jobs (job)
-- [daemonset](./Kubernetes_DaemonSets.md)
-- [taints](./Kubernetes_taints_tolerations_nodeSelector_affinity.md)
+- [daemonset](./K8s_DaemonSets.md)
+- [taints](./K8s_taints_tolerations_nodeSelector_affinity.md)
 
 ## 🎓Basic commands🎓
 
-Most of theses commands can use [labels and selectors](./Kubernetes_labels_selectors.md)
+Most of theses commands can use [labels and selectors](./K8s_labels_selectors.md)
 
 ### Configure kubectl
 
@@ -176,4 +176,4 @@ sudo kubeadm certs check-expiration
 
 ### Renew certificates
 
-[Follow theses instructions](./Kubernetes_Renew_Certificates.md)
+[Follow theses instructions](./K8s_Renew_Certificates.md)

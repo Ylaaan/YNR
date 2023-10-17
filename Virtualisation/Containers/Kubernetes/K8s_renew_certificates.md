@@ -1,4 +1,4 @@
-# Kubernetes certificates renewal
+# K8s certificates renewal
 
 On the master node :
 
@@ -24,4 +24,4 @@ mv /tmp/manifests .
 
 ## 📜Configure kubectl with the new certificates📜
 
-[Follow these instructions.](./Kubernetes_commands.md#check-certificates-expirations)
+[Follow these instructions.](./K8s_commands.md#check-certificates-expirations)

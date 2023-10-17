@@ -1,6 +1,6 @@
-# Kubernetes ressources management
+# K8s ressources management
 
-[Kubernetes commands](./Kubernetes_commands.md)
+[Kubernetes commands](./K8s_commands.md)
 
 ## CPU
 

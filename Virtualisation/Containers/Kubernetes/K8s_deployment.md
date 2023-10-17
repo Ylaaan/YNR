@@ -1,4 +1,4 @@
-# Kubernetes deployment
+# K8s deployment
 
 ## Definition
 

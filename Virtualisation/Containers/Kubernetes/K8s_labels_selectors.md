@@ -1,4 +1,4 @@
-# Kubernetes labels and selectors
+# K8s labels and selectors
 
 ## Labels
 
@@ -22,7 +22,7 @@ metadata:
 
 ### Label a node
 
-You made want to label a node to be used in [node selectors](./Kubernetes_Taints_Tolerations.md).
+You made want to label a node to be used in [node selectors](./K8s_Taints_Tolerations.md).
 
 ```bash
 kubectl label node <node-name> key=value

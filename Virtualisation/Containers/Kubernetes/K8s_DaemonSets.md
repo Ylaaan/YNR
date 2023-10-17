@@ -1,4 +1,4 @@
-# Kubernetes Daemon sets
+# K8s Daemon sets
 
 A daemon set is a deployment that will create a copy of the application on every node.
 
