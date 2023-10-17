@@ -4,7 +4,7 @@
 
 Allows bash script to use options flags (`-<letter> and --<word>` format.)
 
-## Exemple
+## Example
 
 An exemple with the `-a`,`-b` and `-h`/`--help` flags.
 
@@ -16,24 +16,24 @@ while test $# -gt 0; do
       echo "Show Help"
       exit 0
       ;;
-    
+  
     -a)
       shift # Goes to next options
       <commands-to-apply>
       shift
       ;;
-    
+  
     -b)
       shift
       <commands-to-apply>
       shift
       ;;
-    
+  
     *) #In case wrong argument
       echo "Invalid argument."
       break
       ;;
-    
+  
   esac
 done
 ```
