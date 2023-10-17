@@ -25,7 +25,7 @@ Options :
 ### Start container
 
 ```bash
-docker run [image]:[tag]
+docker run <image>:<tag>
 ```
 
 Options :
@@ -38,25 +38,25 @@ You can also use [Docker compose](Docker_Compose.md#docker-compose)
 ### Stop container
 
 ```bash
-docker container stop [container-id]
+docker container stop <container-id>
 ```
 
 ### Delete container
 
 ```bash
-docker container rm [container-id]
+docker container rm <container-id>
 ```
 
 ### Execute command in container
 
 ``` bash
-docker exec -it [container] [command]
+docker exec -it <container> <command>
 ```
 
 ### Copy file from/to a container
 
 ```bash
-sudo docker cp [source-path] [destination-path]
+sudo docker cp <source-path> <destination-path>
 ```
 
 ---
@@ -72,26 +72,26 @@ docker node ls
 ### Create docker network
 
 ```bash
-docker network create --driver=overlay [name]
+docker network create --driver=overlay <name>
 ```
 
 ### Create docker service
 
 ```bash
-docker service create --name=[service-name] [image]:[tag]
+docker service create --name=<service-name> <image>:<tag>
 ```
 
 Options :
 
-- Use a network : ``--network=[network-name]``
-- Expose a port : ``-p [host-port]:[container-port]``
-- Pass environnement variable : ``-e [variable-name]=[value]``
-- Mount a volume : ``--mount type=bind,source="[host-path]",target="[container-path]"``
+- Use a network : ``--network=<network-name>``
+- Expose a port : ``-p <host-port>:<container-port>``
+- Pass environnement variable : ``-e <variable-name>=<value>``
+- Mount a volume : ``--mount type=bind,source="<host-path>",target="<container-path>"``
 
 ### Scale Service
 
 ```bash
-docker service scale [service-name]=[number-of-replicas]
+docker service scale <service-name>=<number-of-replicas>
 ```
 
 ---
@@ -103,16 +103,14 @@ docker service scale [service-name]=[number-of-replicas]
 ### Pull image
 
 ```bash
-docker pull [image]:[tag]
+docker pull <image>:<tag>
 ```
 
 ### Build Dockerfile (in the same directory as the Dockerfile)
 
 ```bash
-docker build -t [image-name]:[tag] .
+docker build -t <image-name>:<tag> .
 ```
-
-[[Dockerfile|Dockerfile structure]]
 
 ### List docker images
 
@@ -123,5 +121,5 @@ docker images
 ### Remove docker image
 
 ```bash
-docker image rm [image-id]
+docker image rm <image-id>
 ```

@@ -31,13 +31,13 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ### Join a namespace
 
 ``` bash
-kubectl config set-context --current --namespace=[namespace]
+kubectl config set-context --current --namespace=<namespace>
 ```
 
 ### List Objects
 
 ``` bash
-kubectl get [object]
+kubectl get <object>
 ```
 
 Options :
@@ -46,24 +46,24 @@ Options :
 - Get YAML format : `-o yaml`
 - Get JSON format : `-o json`
 - All namespaces : `-A`
-- Specific namespace : `-n=[name]`
+- Specific namespace : `-n=<name>`
 
 ### Describe Objects
 
 ``` bash
-kubectl describe [object]
+kubectl describe <object>
 ```
 
 ### Get YAML definition of an object
 
 ``` bash
-kubectl get [object] -o yaml
+kubectl get <object> -o yaml
 ```
 
 You can also get the definition in a cleaner manner, edit the configuration :
 
 ```bash
-kubectl edit [object]
+kubectl edit <object>
 ```
 
 Then save the changes, in another file.
@@ -71,13 +71,13 @@ Then save the changes, in another file.
 ### Scale a statefulset/deployment
 
 ``` bash
-kubectl scale [object] --replicas=[number-of-replicas]
+kubectl scale <object> --replicas=<number-of-replicas>
 ```
 
 ### Create an Object form YAML definition
 
 ``` bash
-kubectl create -f [path-to-file]
+kubectl create -f <path-to-file>
 ```
 
 Options :
@@ -87,7 +87,7 @@ Options :
 ### Update/Create an Object form YAML definition
 
 ``` bash
-kubectl apply -f [path-to-file]
+kubectl apply -f <path-to-file>
 ```
 
 Options :
@@ -101,47 +101,47 @@ Options :
 ### Execute command on a pod (Similar to [docker exec](../Docker/Docker_Commands.md#execute-command-in-container) exec)
 
 ``` bash
-kubectl exec [pod] -- [command]
+kubectl exec <pod> -- <command>
 ```
 
 Options :
 
 - Interactive mode : `-it`
-- Specify specific container : `-c [container]`
+- Specify specific container : `-c <container>`
 
 Example :
 
-- `kubectl exec -it [pod] -- bash`
+- `kubectl exec -it <pod> -- bash`
 
 ### Copy file inside pod
 
 ``` bash
-kubectl cp [file-to-copy] [pod]:[where-to-copy]
+kubectl cp <file-to-copy> <pod>:<where-to-copy>
 ```
 
 ### Get logsform a pod
 
 ```bash
-kubectl logs [pod-name]
+kubectl logs <pod-name>
 ```
 
 Options :
 
 - Get logs from all containers in pod : `--all-containers`
-- Get logs from a delete pod : `--previous [pod-name]`
+- Get logs from a delete pod : `--previous <pod-name>`
 
 ## 🎛️Node commands🎛️
 
 ### Disable scheduling on a node
 
 ``` bash
-kubectl cordon [node-name]
+kubectl cordon <node-name>
 ```
 
 ### Enable scheduling on a node
 
 ``` bash
-kubectl uncordon [node-name]
+kubectl uncordon <node-name>
 ```
 
 ### See Nodes hardware usage (CPU,MEMORY)

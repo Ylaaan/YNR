@@ -3,8 +3,8 @@
 ## 👤Account config👤
 
 ```bash
-git config --global user.name “[firstname lastname]”
-git config --global user.email “[valid-email]”
+git config --global user.name “<firstname lastname>”
+git config --global user.email “<valid-email>”
 git config --global color.ui auto
 ```
 
@@ -15,25 +15,25 @@ git config --global color.ui auto
 ### Add remote repository
 
 ```bash
-git remote add [alias] [url]
+git remote add <alias> <url>
 ```
 
 ### Get all branches from remote
 
 ```bash
-git fetch [alias]
+git fetch <alias>
 ```
 
 ### Merge remote and local branch
 
 ```bash
-git merge [alias]/[branch]
+git merge <alias>/<branch>
 ```
 
 ### Send local branch to remote
 
 ```bash
-git push [alias] [branch]
+git push <alias> <branch>
 ```
 
 ### Fetch and merge commits form remote branch (Sync from remote to local)
@@ -55,7 +55,7 @@ git init
 ### Clone a repository
 
 ```bash
-git clone [repository-url]
+git clone <repository-url>
 ```
 
 ---
@@ -71,7 +71,7 @@ git status
 ### Add files to stage
 
 ```bash
-git add [files]
+git add <files>
 ```
 
 For all files : ``*``
@@ -95,12 +95,12 @@ Options :
 ### Commit changes
 
 ```bash
-git commit -m "[message]"
+git commit -m "<message>"
 ```
 
 Options :
 
-- Commit message : ``-m "[message]"``
+- Commit message : ``-m "<message>"``
 
 ---
 
@@ -115,7 +115,7 @@ git branch
 ### Create new branch at commit
 
 ```bash
-git branch [branch-name]
+git branch <branch-name>
 ```
 
 ### Change branch
@@ -127,7 +127,7 @@ git checkout
 ### Merge branches
 
 ```bash
-git merge [branch-name]
+git merge <branch-name>
 ```
 
 ### Show commit history
@@ -147,11 +147,11 @@ Options :
 ### Apply commits form current branch ahead of specified branch
 
 ```bash
-git rebase [branch-name]
+git rebase <branch-name>
 ```
 
 ### Clear staging, rewrite work tree from specified commit
 
 ```bash
-git reset --hard [commit]
+git reset --hard <commit>
 ```

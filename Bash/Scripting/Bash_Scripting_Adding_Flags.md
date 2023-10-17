@@ -1,6 +1,6 @@
 # Adding option flags to a script
 
-Allows bash script to use options flags (`-[letter] and --[word]` format.)
+Allows bash script to use options flags (`-<letter> and --<word>` format.)
 
 ## Exemple
 
@@ -17,13 +17,13 @@ while test $# -gt 0; do
     
     -a)
       shift # Goes to next options
-      [commands-to-apply]
+      <commands-to-apply>
       shift
       ;;
     
     -b)
       shift
-      [commands-to-apply]
+      <commands-to-apply>
       shift
       ;;
     

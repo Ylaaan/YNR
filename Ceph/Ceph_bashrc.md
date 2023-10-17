@@ -7,5 +7,5 @@ While using ceph on a [kubernetes](../Virtualisation/Containers/Kubernetes/Kuber
 Add this to the bashrc
 
 ```bash
-alias ceph='kubctl -n [nom-namespace] exec -it deploy/rook-ceph-tools -- ceph'
+alias ceph='kubctl -n <nom-namespace> exec -it deploy/rook-ceph-tools -- ceph'
 ```

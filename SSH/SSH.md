@@ -3,12 +3,12 @@
 ## SSH command
 
 ```bash
-ssh [username]@[hostname]
+ssh <username>@<hostname>
 ```
 
 Options :
 
-- Specify a private key : `-i [path-to-private-key]`
+- Specify a private key : `-i <path-to-private-key>`
 
 ## Setup a private key connection
 
@@ -20,8 +20,8 @@ ssh-keygen
 
 Options :
 
-- Specify a encrypting protocol : `-t [protocol]`
-- Specify key length in bytes : `-b [number-of-bytes]`
+- Specify a encrypting protocol : `-t <protocol>`
+- Specify key length in bytes : `-b <number-of-bytes>`
 
 If you don't want a passphrase, leave the prompt blank.
 
@@ -32,7 +32,7 @@ If you don't want a passphrase, leave the prompt blank.
 If available use the following method :
 
 ```bash
-ssh-copy-id [username]@[hostname]
+ssh-copy-id <username>@<hostname>
 ```
 
 If asked for passphrase type it and press `ENTER`.
@@ -42,7 +42,7 @@ If asked for passphrase type it and press `ENTER`.
 If only ssh is available
 
 ```bash
-cat ~/.ssh/id_rsa.pub | ssh [username]@[hostname] "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
+cat ~/.ssh/id_rsa.pub | ssh <username>@<hostname> "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
 ```
 
 #### Copy manually
@@ -67,7 +67,7 @@ sudo chmod 600 ~/.ssh/id_rsa
 ```
 
 ```bash
-echo [public-key] >> ~/.ssh/authorized_keys
+echo <public-key> >> ~/.ssh/authorized_keys
 ```
 
 Make sure your home directory doesn't have more than 755 permissions (drwxr-xr-x).

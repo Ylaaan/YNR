@@ -32,7 +32,7 @@ a multiline command
 **Be carefull :** This must be used at the begining of the file!
 
 ```dockerfile
-FROM [image]:[tag]
+FROM <image>:<tag>
 ```
 
 Options :
@@ -42,13 +42,13 @@ Options :
 ### Copy files from host to image
 
 ```dockerfile
-COPY [source] [destination]
+COPY <source> <destination>
 ```
 
 ### Set environement variables
 
 ```dockerfile
-ENV [variable]=[value]
+ENV <variable>=<value>
 ```
 
 Environment variables are supported by the following list of instructions in the `Dockerfile`:
@@ -84,5 +84,5 @@ Similarly to  .gitignore files, a "**.dockerignore**" file can be created. This 
 ### Add an exeption to the rule too
 
 ```dockerignore
-![file-name]
+!<file-name>
 ```

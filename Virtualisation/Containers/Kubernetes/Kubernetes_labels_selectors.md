@@ -25,7 +25,7 @@ metadata:
 You made want to label a node to be used in [node selectors](./Kubernetes_Taints_Tolerations.md).
 
 ```bash
-kubectl label node [node-name] key=value
+kubectl label node <node-name> key=value
 ```
 
 ### Use

@@ -11,7 +11,7 @@ pwd
 ### Move to path
 
 ```bash
-cd [path]
+cd <path>
 ```
 
 Path structure :
@@ -24,7 +24,7 @@ Path structure :
 ### Locate binary, source, manual-page files of a command
 
 ```bash
-whereis [name]
+whereis <name>
 ```
 
 Options :
@@ -42,7 +42,7 @@ whoami
 ### Change current user
 
 ```bash
-su - [user]
+su - <user>
 ```
 
 To change to root without root password : ``sudo su -``
@@ -58,7 +58,7 @@ exit
 ### List files
 
 ```bash
-ls [directory-to-list]
+ls <directory-to-list>
 ```
 
 Options :
@@ -75,13 +75,13 @@ Options :
 ### Print file's content
 
 ```bash
-cat [file-path]
+cat <file-path>
 ```
 
 ### Copy files
 
 ```bash
-cp [source-path] [destination-path]
+cp <source-path> <destination-path>
 ```
 
 Options :
@@ -91,13 +91,13 @@ Options :
 ### Move files
 
 ```bash
-mv [source-path] [destination-path]
+mv <source-path> <destination-path>
 ```
 
 ### Remove file
 
 ```bash
-rm [file-path]
+rm <file-path>
 ```
 
 Options :
@@ -108,13 +108,13 @@ Options :
 ### Create file
 
 ```bash
-touch [file-path]
+touch <file-path>
 ```
 
 ### Add content in file without editor
 
 ```bash
-echo "[content-to-add]" [>|>>] [file]
+echo "<content-to-add>" >|>> <file>
 ```
 
 Use ``>`` to replace content.
@@ -125,19 +125,19 @@ Use ``>>`` to append.
 ### Execute file with root permissions
 
 ```bash
-sudo [command]
+sudo <command>
 ```
 
 ### Change file rights
 
 ```bash
-chmod +[r;w;x] [file-path]
+chmod +<r;w;x> <file-path>
 ```
 
 ### Change owner of file
 
 ```bash
-chown [new-owner]:[new-group] [file]
+chown <new-owner>:<new-group> <file>
 ```
 
 Options :
@@ -149,7 +149,7 @@ Options :
 ### Change owner group of file
 
 ```bash
-chgrp [new-group] [file]
+chgrp <new-group> <file>
 ```
 
 Options :
@@ -163,7 +163,7 @@ Options :
 ### Check running processes
 
 ```bash
-ps [options]
+ps <options>
 ```
 
 Options :
@@ -175,7 +175,7 @@ Options :
 ### Check file system
 
 ```bash
-df [options]
+df <options>
 ```
 
 Options :
@@ -187,7 +187,7 @@ Options :
 ### Check file size
 
 ```bash
-du [options] [./*]
+du <options> <./*>
 ```
 
 Options :
@@ -206,7 +206,7 @@ env
 ### Set environement variable
 
 ```bash
-export [name]=[value]
+export <name>=<value>
 ```
 
 Options :
@@ -234,8 +234,8 @@ source ~/.bashrc
 For more complicated case using a function might be better
 
 ```bash
-function [name_of_the_function]() {
-    [commands]
+function <name_of_the_function>() {
+    <commands>
 }
 ```
 

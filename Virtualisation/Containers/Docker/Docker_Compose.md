@@ -23,7 +23,7 @@ docker compose up
 Options :
 
 - Run in backgroud : ``-d``
-- Specify file : ``-f [file-name]``
+- Specify file : ``-f <file-name>``
 
 ## Example
 
