@@ -1,10 +1,10 @@
 # NTP
 
-## Configure NTP client
+## 📜Configure NTP client📜
 
 The configuraiton is generally situated in `/etc/ntp.conf`
 
-## Restart the NTP client
+## 🔁Restart the NTP client🔁
 
 Either :
 
@@ -20,7 +20,7 @@ systemctl restart ntpd
 
 Note : Sometimes, Chrony is used instead of the classic NTP client, in that case use `chrony` or `chronyd`
 
-## Check NTP status
+## 💹Check NTP stat💹
 
 ### Classic NTP
 

@@ -1,6 +1,6 @@
 # K8s taints,node selector,affinity
 
-## Taints
+## 🎨Taints🎨
 
 A taint doesn't tell a pod to go to a pod only to pods NOT to go to one. By default the master nodes has taints to prevent regular pods to run on it.
 
@@ -16,7 +16,7 @@ Note :
 - `NoSchedule` will prevetn new pods from being scheduled.
 - `NoExecute` will kill current pods without the toleration on the node
 
-## Toleration
+## 🆗Toleration🆗
 
 Set in the definition.
 
@@ -38,7 +38,7 @@ spec:
     effect: "NoSchedule"
 ```
 
-## Node selectors
+## 🧲Node selectors🧲
 
 A node selector is a way of telling the scheduler to put a pod in a specific node. You can definite that node selector in the definition of the pod.
 

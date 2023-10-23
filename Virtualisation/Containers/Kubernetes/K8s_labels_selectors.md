@@ -1,6 +1,6 @@
 # K8s labels and selectors
 
-## Labels
+## 🚩Labels🚩
 
 Many kubertes objects have labels, they are a regular tag system.
 
@@ -32,7 +32,7 @@ kubectl label node <node-name> key=value
 
 You can then use them as filters in many commands with the ``--selectors key1=value1,key2=value2`` option.
 
-## Annotations
+## 💬Annotations💬
 
 Annotations behave more like note fields, additional info not necessarily used by kubernetes or its commands they are definied in a similar manner
 

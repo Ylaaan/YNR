@@ -2,10 +2,10 @@
 
 [Kubernetes commands](./K8s_commands.md)
 
-## CPU
+## 🧮CPU🧮
 
 It is genrally advised to set a request but no limits on CPU for pods.
 
-## Memory
+## 🧠Memory🧠
 
 It is genrally advised to set a request but no limits on memory for pods.
