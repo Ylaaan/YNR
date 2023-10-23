@@ -42,7 +42,7 @@ Une fois le service redémarré, attendre quelques minutes.
 chronyc tracking
 ```
 
-## Check server date
+## 📆Check server date📆
 
 ```bash
 date
