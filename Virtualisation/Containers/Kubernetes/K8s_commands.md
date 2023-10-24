@@ -150,7 +150,7 @@ kubectl uncordon <node-name>
 kubectl top nodes
 ```
 
-## Kubelet
+## 👨‍✈️Kubelet👨‍✈️
 
 ### Get Kubelet logs of a node
 
@@ -166,7 +166,7 @@ journalctl -u kubelet
 systemctl restart kubelet
 ```
 
-## Certificates
+## 📑Certificates📑
 
 ### Check certificates expirations
 
