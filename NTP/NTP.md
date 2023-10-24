@@ -36,7 +36,7 @@ ntpq -pn
 
 ### Chrony
 
-Une fois le service redémarré, attendre quelques minutes.
+Once the service restart, wait a few minutes.
 
 ```bash
 chronyc tracking
