@@ -22,7 +22,7 @@ metadata:
 
 ### Label a node
 
-You made want to label a node to be used in [node selectors](./K8s_Taints_Tolerations.md).
+You made want to label a node to be used in [node selectors](./K8s_taints_tolerations_nodeSelector_affinity.md#🧲node-selectors🧲).
 
 ```bash
 kubectl label node <node-name> key=value
