@@ -1,6 +1,6 @@
 # SSH
 
-## SSH command
+## 📡SSH command📡
 
 ```bash
 ssh <username>@<hostname>
@@ -10,7 +10,7 @@ Options :
 
 - Specify a private key : `-i <path-to-private-key>`
 
-## Setup a private key connection
+## 🔑Setup a private key connection🔑
 
 ### Generate a private key on your host
 
@@ -72,7 +72,7 @@ echo <public-key> >> ~/.ssh/authorized_keys
 
 Make sure your home directory doesn't have more than 755 permissions (drwxr-xr-x).
 
-## Dissable password login (Optionnal but recommended)
+## ⛔Disable password login (Optionnal but recommended)⛔
 
 ### Modifiy sshd config
 
