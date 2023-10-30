@@ -7,7 +7,7 @@ You can also manage your Kubernetes apps with [Helm](Helm/Helm_Commands.md)
 - namespaces
 - [deployments](./K8s_deployment.md) (deploy)
 - statefulset
-- services (svc)
+- [services](./K8s_services.md) (svc)
 - ingress
 - persistent volume claim (pvc)
 - pods (pod)
