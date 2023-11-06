@@ -10,9 +10,7 @@
 
 ### Mod / Plugins
 
-You can get more control over permissions by using this.
-
-[More info here.](./Mods&Plugins/Permissions/MCServer_Fabric_Player_roles.md)
+You can get more control over permissions by using mods or plugins like Luckperms or Player-Roles.
 
 ## Icon
 
