@@ -13,7 +13,7 @@ kubectl taint nodes <node-name> key=value:<NoSchedule|PreferNoSchedule|NoExecute
 Note :
 
 - Adding a `-` to the end of an existing taint will delete it from the node.
-- `NoSchedule` will prevetn new pods from being scheduled.
+- `NoSchedule` will prevent new pods from being scheduled.
 - `NoExecute` will kill current pods without the toleration on the node
 
 ## 🆗Toleration🆗
