@@ -2,7 +2,7 @@
 
 ## 🎨Taints🎨
 
-A taint doesn't tell a pod to go to a pod only to pods NOT to go to one. By default the master nodes has taints to prevent regular pods to run on it.
+A taint doesn't tell a pod to go to a node. It only tells pods NOT to go to one. By default the master nodes has taints to prevent regular pods to run on it.
 
 ### Taint a node
 
