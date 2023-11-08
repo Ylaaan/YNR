@@ -4,28 +4,26 @@ You can also manage your Kubernetes apps with [Helm](Helm/Helm_Commands.md)
 
 ## 📊Overview Graph🗺️
 
-Mermaid support needed
-
 ```mermaid
 flowchart TD
     subgraph Cluster
         subgraph Master
-        API
-        Kubelet0
+            API
+            Kubelet0["Kubelet"]
         end
-        Master --- Node1 & Node2 & Node3
         subgraph Node1
-        Kubelet1
-        Pod1
+            Kubelet1["Kubelet"]
+            Pod1["Pod"]
         end
         subgraph Node2
-        Kubelet2
-        Pod2
+            Kubelet2["Kubelet"]
+            Pod2["Pod"]
         end
         subgraph Node3
-        Kubelet3
-        Pod3
+            Kubelet3["Kubelet"]
+            Pod3["Pod"]
         end
+        Master --- Node1 & Node2 & Node3
     end
 ```
 
