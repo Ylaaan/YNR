@@ -8,7 +8,7 @@
 ceph --help
 ```
 
-### Enter CEPH CLI
+### Enter Ceph CLI
 
 ```bash
 ceph
@@ -18,4 +18,10 @@ ceph
 
 ```bash
 ceph status
+```
+
+### Show Ceph auth
+
+```bash
+ceph auth ls
 ```
