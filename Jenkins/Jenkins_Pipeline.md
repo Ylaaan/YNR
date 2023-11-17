@@ -45,7 +45,7 @@ pipeline {
 }
 ```
 
-You can add different execution options : 
+You can add different execution options :
 
 - ``always`` : Run the steps in the post section regardless of the completion status of the Pipeline’s or stage’s run.
 - ``changed``: Only run the steps in post if the current Pipeline’s run has a different completion status from its previous run.
