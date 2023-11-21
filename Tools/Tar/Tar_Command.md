@@ -3,7 +3,7 @@
 ## Command syntax
 
 ```bash
-tar <options> <name_of _the_tar_archive> <files_to_include>
+tar <options> <name_of_the_tar_archive> <files_to_include>
 ```
 
 Options:
