@@ -14,4 +14,4 @@ You can get more control over permissions by using mods or plugins like Luckperm
 
 ## Icon
 
-To use an icon, simple put a 64x64 pixel `/png` file in the root folder of you server.
+To use an icon, simple put a 64x64 pixel `png` file in the root folder of you server.
