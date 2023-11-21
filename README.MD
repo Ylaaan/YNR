@@ -3,7 +3,7 @@
 ## Goal
 
 This repository is a cluster of personnal documentations.
-The main goal is preventing having to read the full documentatoin of each tool and gain time by having a neat, summed-up and simple documentation for all kind of softwares and tools.
+The main goal is preventing having to read the full documentation of each tool and gain time by having a neat, summed-up and simple documentation for all kind of softwares and tools.
 
 ## Structure
 
