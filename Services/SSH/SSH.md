@@ -25,7 +25,7 @@ Options :
 
 If you don't want a passphrase, leave the prompt blank.
 
-### Copy the public key the the remote destination
+### Copy the public key to the remote destination
 
 #### ssh-copy-id
 
