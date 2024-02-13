@@ -1,5 +1,41 @@
 # Bash Commands
 
+## Table of contents
+
+- [Bash Commands](#bash-commands)
+  - [Table of contents](#table-of-contents)
+  - [📂Move in the file system📂](#move-in-the-file-system)
+    - [Show current directory](#show-current-directory)
+    - [Move to path](#move-to-path)
+    - [Locate binary, source, manual-page files of a command](#locate-binary-source-manual-page-files-of-a-command)
+    - [Check current user](#check-current-user)
+    - [Change current user](#change-current-user)
+    - [Exit user or command line](#exit-user-or-command-line)
+  - [📝File manipulation📝](#file-manipulation)
+    - [List files](#list-files)
+    - [Print file's content](#print-files-content)
+    - [Copy files](#copy-files)
+    - [Move files](#move-files)
+    - [Remove file](#remove-file)
+    - [Create file](#create-file)
+    - [Add content in file without editor](#add-content-in-file-without-editor)
+  - [✔️POSIX permissions❌](#️posix-permissions)
+    - [Execute file with root permissions](#execute-file-with-root-permissions)
+    - [Change file rights](#change-file-rights)
+    - [Change owner of file](#change-owner-of-file)
+    - [Change owner group of file](#change-owner-group-of-file)
+  - [📊System Checks📊](#system-checks)
+    - [Check running processes](#check-running-processes)
+    - [Check file system](#check-file-system)
+    - [Check file size](#check-file-size)
+  - [⛰️Environement variables🏞️](#️environement-variables️)
+    - [List environement variables](#list-environement-variables)
+    - [Set environement variable](#set-environement-variable)
+  - [💻 .bashrc 💻](#-bashrc-)
+    - [Fix watch command for aliases](#fix-watch-command-for-aliases)
+    - [Apply Modifications of .bashrc file](#apply-modifications-of-bashrc-file)
+    - [Functions](#functions)
+
 ## 📂Move in the file system📂
 
 ### Show current directory

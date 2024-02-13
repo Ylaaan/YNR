@@ -1,5 +1,13 @@
 # Documentation
 
+## Table of contents
+
+- [Documentation](#documentation)
+  - [Table of contents](#table-of-contents)
+  - [Goal](#goal)
+  - [Structure](#structure)
+  - [Syntax](#syntax)
+
 ## Goal
 
 This repository is a cluster of personnal documentations.

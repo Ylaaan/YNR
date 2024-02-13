@@ -1,5 +1,11 @@
 # Adding option flags to a script
 
+## Table of contents
+
+- [Adding option flags to a script](#adding-option-flags-to-a-script)
+  - [Table of contents](#table-of-contents)
+  - [Example](#example)
+
 [Basic bash commands](../Bash_commands.md)
 
 Allows bash script to use options flags (`-<letter> and --<word>` format.)

@@ -1,5 +1,15 @@
 # MCserver General Info
 
+## Table of contents
+
+- [MCserver General Info](#mcserver-general-info)
+  - [Table of contents](#table-of-contents)
+  - [Properties](#properties)
+  - [Permissions](#permissions)
+    - [Vanilla](#vanilla)
+    - [Mod / Plugins](#mod--plugins)
+  - [Icon](#icon)
+
 ## Properties
 
 [More info here.](./MCServer_Properties.md)

@@ -1,5 +1,13 @@
 # K8s certificates renewal
 
+## Table of contents
+
+- [K8s certificates renewal](#k8s-certificates-renewal)
+  - [Table of contents](#table-of-contents)
+  - [🔄Renew the certificates🔄](#renew-the-certificates)
+  - [🔴Restart the control plane🟢](#restart-the-control-plane)
+  - [📜Configure kubectl with the new certificates📜](#configure-kubectl-with-the-new-certificates)
+
 On the master node :
 
 ## 🔄Renew the certificates🔄

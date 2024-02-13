@@ -1,5 +1,15 @@
 # K8s taints,node selector,affinity
 
+## Table of contents
+
+- [K8s taints,node selector,affinity](#k8s-taintsnode-selectoraffinity)
+  - [Table of contents](#table-of-contents)
+  - [🎨Taints🎨](#taints)
+    - [Taint a node](#taint-a-node)
+  - [🆗Toleration🆗](#toleration)
+  - [🧲Node selectors🧲](#node-selectors)
+  - [Node affinity](#node-affinity)
+
 ## 🎨Taints🎨
 
 A taint doesn't tell a pod to go to a node. It only tells pods NOT to go to one. By default the master nodes has taints to prevent regular pods to run on it.

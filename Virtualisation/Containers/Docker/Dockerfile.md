@@ -1,5 +1,22 @@
 # DockerFile
 
+## Table of contents
+
+- [DockerFile](#dockerfile)
+  - [Table of contents](#table-of-contents)
+  - [🏗️Structure🏗️](#️structure️)
+    - [Name](#name)
+    - [Comments](#comments)
+    - [Multiline](#multiline)
+  - [🛂Instructions🛂](#instructions)
+    - [Use a Docker image as a base](#use-a-docker-image-as-a-base)
+    - [Copy files from host to image](#copy-files-from-host-to-image)
+    - [Set environement variables](#set-environement-variables)
+  - [🚫.dockerignore🚫](#dockerignore)
+    - [.dockerignore Comments](#dockerignore-comments)
+    - [Add a files to ignore](#add-a-files-to-ignore)
+    - [Add an exeption to the rule too](#add-an-exeption-to-the-rule-too)
+
 [Docker_Commands](Docker_Commands.md#docker-commands)
 
 ## 🏗️Structure🏗️

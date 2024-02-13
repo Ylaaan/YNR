@@ -1,5 +1,11 @@
 # Ceph bashrc
 
+## Table of contents
+
+- [Ceph bashrc](#ceph-bashrc)
+  - [Table of contents](#table-of-contents)
+  - [files contents](#files-contents)
+
 While using ceph on a [kubernetes](../Virtualisation/Containers/Kubernetes/Kubernetes_Commands.md) cluster, you must set an alias to use the [ceph commands](./Ceph_Commands.md) directly.
 
 ## files contents

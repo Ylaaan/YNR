@@ -1,5 +1,29 @@
 # Docker Commands
 
+## Table of contents
+
+- [Docker Commands](#docker-commands)
+  - [Table of contents](#table-of-contents)
+  - [⬇️Install Docker⬇️](#️install-docker️)
+  - [🎓Basic commands🎓](#basic-commands)
+    - [List docker processes](#list-docker-processes)
+    - [List docker containers](#list-docker-containers)
+    - [Start container](#start-container)
+    - [Stop container](#stop-container)
+    - [Delete container](#delete-container)
+    - [Execute command in container](#execute-command-in-container)
+    - [Copy file from/to a container](#copy-file-fromto-a-container)
+  - [🐝Docker Swarm🐝](#docker-swarm)
+    - [List nodes](#list-nodes)
+    - [Create docker network](#create-docker-network)
+    - [Create docker service](#create-docker-service)
+    - [Scale Service](#scale-service)
+  - [📀Docker images📀](#docker-images)
+    - [Pull image](#pull-image)
+    - [Build Dockerfile (in the same directory as the Dockerfile)](#build-dockerfile-in-the-same-directory-as-the-dockerfile)
+    - [List docker images](#list-docker-images)
+    - [Remove docker image](#remove-docker-image)
+
 ## ⬇️Install Docker⬇️
 
 [On Ubuntu](https://docs.docker.com/engine/install/ubuntu/ "https://docs.docker.com/engine/install/ubuntu/")

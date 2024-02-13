@@ -1,5 +1,13 @@
 # NFS
 
+## Table of contents
+
+- [NFS](#nfs)
+  - [Table of contents](#table-of-contents)
+  - [⏬Install NFS Package⏬](#install-nfs-package)
+  - [💽Mount an NFS shared directory💽](#mount-an-nfs-shared-directory)
+  - [🔂Mount on startup🆙](#mount-on-startup)
+
 ## ⏬Install NFS Package⏬
 
 ```bash
