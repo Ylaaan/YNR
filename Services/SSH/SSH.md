@@ -50,7 +50,7 @@ If available use the following method :
 ssh-copy-id <username>@<hostname>
 ```
 
-If asked for passphrase type it and press `ENTER`.
+If asked for passphrase type it and press <kbd>ENTER</kbd>.
 
 #### copy with SSH
 
