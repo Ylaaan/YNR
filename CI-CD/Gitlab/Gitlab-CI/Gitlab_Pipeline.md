@@ -2,6 +2,32 @@
 
 - [Pre-filled variables](#Pre-filled%20variables)
 
+## CI-Variables
+
+CI variables can be set at the project or group level, note that only owners cat modify group variables.
+
+> Be careful : Variables keys, cannot contain `-` characters.
+
+Variables can also be used in specific environments only.
+
+
+### Types
+
+|   Type   | Description                | Default |
+|:--------:|:-------------------------- |:-------:|
+| Variable | Regular variable type      |   ✅    |
+|   File   | Treats variable as a file |   ❌    |
+
+### Flags
+
+
+|   Flags   | Description                                                   |
+|:---------:|:------------------------------------------------------------- |
+|  Masked   | Hides value in logs, can break code if change without caution |
+| Expanded  | Allows the use of variables inside the variable               |
+| Protected | Disallow use of this variable outside protected branches      |
+
+
 ## Pre-filled variables
 
 This will only work in the global `variables:` field.
