@@ -13,9 +13,9 @@ Variables can also be used in specific environments only.
 
 ### Types
 
-|   Type   | Description                | Default |
-|:--------:|:-------------------------- |:-------:|
-| Variable | Regular variable type      |   ✅    |
+|   Type   | Description               | Default |
+|:--------:|:------------------------- |:-------:|
+| Variable | Regular variable type     |   ✅    |
 |   File   | Treats variable as a file |   ❌    |
 
 ### Flags

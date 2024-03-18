@@ -1,40 +1,37 @@
 # Bash Commands
 
-## Table of contents
+- [📂Move in the file system📂](#%F0%9F%93%82Move%20in%20the%20file%20system%F0%9F%93%82)
+	- [Show current directory](#Show%20current%20directory)
+	- [Move to path](#Move%20to%20path)
+	- [Locate binary, source, manual-page files of a command](#Locate%20binary,%20source,%20manual-page%20files%20of%20a%20command)
+	- [Check current user](#Check%20current%20user)
+	- [Change current user](#Change%20current%20user)
+	- [Exit user or command line](#Exit%20user%20or%20command%20line)
+- [📝File manipulation📝](#%F0%9F%93%9DFile%20manipulation%F0%9F%93%9D)
+	- [List files](#List%20files)
+	- [Print file's content](#Print%20file's%20content)
+	- [Copy files](#Copy%20files)
+	- [Move files](#Move%20files)
+	- [Remove file](#Remove%20file)
+	- [Create file](#Create%20file)
+	- [Add content in file without editor](#Add%20content%20in%20file%20without%20editor)
+- [✔️POSIX permissions❌](#%E2%9C%94%EF%B8%8FPOSIX%20permissions%E2%9D%8C)
+	- [Execute file with root permissions](#Execute%20file%20with%20root%20permissions)
+	- [Change file rights](#Change%20file%20rights)
+	- [Change owner of file](#Change%20owner%20of%20file)
+	- [Change owner group of file](#Change%20owner%20group%20of%20file)
+- [📊System Checks📊](#%F0%9F%93%8ASystem%20Checks%F0%9F%93%8A)
+	- [Check running processes](#Check%20running%20processes)
+	- [Check file system](#Check%20file%20system)
+	- [Check file size](#Check%20file%20size)
+- [⛰️Environment variables🏞️](#%E2%9B%B0%EF%B8%8FEnvironment%20variables%F0%9F%8F%9E%EF%B8%8F)
+	- [List environment variables](#List%20environment%20variables)
+	- [Set environment variable](#Set%20environment%20variable)
+- [💻 .bashrc 💻](#%F0%9F%92%BB%20.bashrc%20%F0%9F%92%BB)
+	- [Fix watch command for aliases](#Fix%20watch%20command%20for%20aliases)
+	- [Apply Modifications of .bashrc file](#Apply%20Modifications%20of%20.bashrc%20file)
+	- [Functions](#Functions)
 
-- [Bash Commands](#bash-commands)
-  - [Table of contents](#table-of-contents)
-  - [📂Move in the file system📂](#move-in-the-file-system)
-    - [Show current directory](#show-current-directory)
-    - [Move to path](#move-to-path)
-    - [Locate binary, source, manual-page files of a command](#locate-binary-source-manual-page-files-of-a-command)
-    - [Check current user](#check-current-user)
-    - [Change current user](#change-current-user)
-    - [Exit user or command line](#exit-user-or-command-line)
-  - [📝File manipulation📝](#file-manipulation)
-    - [List files](#list-files)
-    - [Print file's content](#print-files-content)
-    - [Copy files](#copy-files)
-    - [Move files](#move-files)
-    - [Remove file](#remove-file)
-    - [Create file](#create-file)
-    - [Add content in file without editor](#add-content-in-file-without-editor)
-  - [✔️POSIX permissions❌](#️posix-permissions)
-    - [Execute file with root permissions](#execute-file-with-root-permissions)
-    - [Change file rights](#change-file-rights)
-    - [Change owner of file](#change-owner-of-file)
-    - [Change owner group of file](#change-owner-group-of-file)
-  - [📊System Checks📊](#system-checks)
-    - [Check running processes](#check-running-processes)
-    - [Check file system](#check-file-system)
-    - [Check file size](#check-file-size)
-  - [⛰️Environement variables🏞️](#️environement-variables️)
-    - [List environement variables](#list-environement-variables)
-    - [Set environement variable](#set-environement-variable)
-  - [💻 .bashrc 💻](#-bashrc-)
-    - [Fix watch command for aliases](#fix-watch-command-for-aliases)
-    - [Apply Modifications of .bashrc file](#apply-modifications-of-bashrc-file)
-    - [Functions](#functions)
 
 ## 📂Move in the file system📂
 
@@ -65,7 +62,7 @@ whereis <name>
 
 Options :
 
-- Search for binarires only : ``-b``
+- Search for binaries only : ``-b``
 - Search manuals and info  only : ``-m``
 - Search for sources only : ``-s``
 
@@ -231,15 +228,15 @@ Options :
 - Summarize : ``-s``
 - Human-readable mode : ``-h``
 
-## ⛰️Environement variables🏞️
+## ⛰️Environment variables🏞️
 
-### List environement variables
+### List environment variables
 
 ```bash
 env
 ```
 
-### Set environement variable
+### Set environment variable
 
 ```bash
 export <name>=<value>

@@ -11,8 +11,8 @@
       - [ssh-copy-id](#ssh-copy-id)
       - [copy with SSH](#copy-with-ssh)
       - [Copy manually](#copy-manually)
-  - [⛔Disable password login (Optionnal but recommended)⛔](#disable-password-login-optionnal-but-recommended)
-    - [Modifiy sshd config](#modifiy-sshd-config)
+  - [⛔Disable password login (Optional but recommended)⛔](#disable-password-login-optionnal-but-recommended)
+    - [Modify sshd config](#modifiy-sshd-config)
     - [Restart the SSH service](#restart-the-ssh-service)
 
 ## 📡SSH command📡
@@ -87,9 +87,9 @@ echo <public-key> >> ~/.ssh/authorized_keys
 
 Make sure your home directory doesn't have more than 755 permissions (drwxr-xr-x).
 
-## ⛔Disable password login (Optionnal but recommended)⛔
+## ⛔Disable password login (Optional but recommended)⛔
 
-### Modifiy sshd config
+### Modify sshd config
 
 Open the file :
 

@@ -1,6 +1,6 @@
 # Helm Commands
 
-Helm help you managing and installing apps on [Kubernetes](../Kubernetes_Commands.md).
+Helm help you managing and installing apps on [Kubernetes](../K8s_Commands.md).
 
 ## 👀 Info Commands 👀
 
