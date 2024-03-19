@@ -72,9 +72,14 @@ docker compose ps
 ### Get logs from compose containers
 
 ```bash
-docker compose logs
+docker compose logs <log-options>
 ```
 
+Options:
+
+- Follow logs: `-f` or `--follow`
+- Get last n lines: `--tail <number-of-lines>`
+- Add timestamps: `--timestamps`
 ## 📚Syntax 📚
 
 ### Networks
