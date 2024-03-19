@@ -80,8 +80,10 @@ docker container logs <container-id>
 Options:
 
 - Follow logs: `-f` or `--follow`
-- Get last n lines: `--tail <number-of-lines>`
+- Get last n lines: `-n` or `--tail <number-of-lines>`
 - Add timestamps: `--timestamps`
+- Get logs since a specific point in time: `--since <time/timestamp/XhXmXs>`
+- Get logs until a specific point in time: `--since <time/timestamp/XhXmXs>`
 ### Execute command in container
 
 ``` bash
