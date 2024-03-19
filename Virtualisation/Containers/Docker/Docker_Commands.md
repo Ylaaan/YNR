@@ -71,16 +71,17 @@ docker container stop <container-id>
 docker container rm <container-id>
 ```
 
-Options:
-
-- Follow logs: `-f` or `--follow`
-- Get last n lines: `--tail <number-of-lines>`
-- Add timestamps: `--timestamps`
 ### Show container logs
 
 ```bash
 docker container logs <container-id>
 ```
+
+Options:
+
+- Follow logs: `-f` or `--follow`
+- Get last n lines: `--tail <number-of-lines>`
+- Add timestamps: `--timestamps`
 ### Execute command in container
 
 ``` bash
