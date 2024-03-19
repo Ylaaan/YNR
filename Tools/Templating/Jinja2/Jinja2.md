@@ -1,5 +1,8 @@
 # Jinja2 templates
 
+- [Variables](#Variables)
+- [For loops](#For%20loops)
+
 Jinja allows you to generate text based files from templates.
 
 It includes functionalities such as:

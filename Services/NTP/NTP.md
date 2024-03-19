@@ -13,7 +13,7 @@
 
 ## 📜Configure NTP client📜
 
-The configuraiton is generally situated in `/etc/ntp.conf`
+The configuration is generally situated in `/etc/ntp.conf`
 
 ## 🔁Restart the NTP client🔁
 
@@ -39,7 +39,7 @@ Note : Sometimes, Chrony is used instead of the classic NTP client, in that case
 ntpstatus
 ```
 
-To see the server list and infos :
+To see the server list and info :
 
 ```bash
 ntpq -pn
