@@ -48,9 +48,9 @@ docker compose up
 
 Options :
 
-- Run in backgroud : ``-d``
+- Run in background : ``-d``
 - Specify file : ``-f <file-name>``
-- Specify enf file: `--env-file=<file-name>`
+- Specify `.env` file: `--env-file=<file-name>`
 
 ### Bring compose down
 
@@ -60,7 +60,7 @@ docker compose down
 
 Options :
 
-- Specify enf file: `--env-file=<file-name>`
+- Specify `.env` file: `--env-file=<file-name>`
 - Also remove volumes : ``--volumes``
 
 ### List containers running from compose
