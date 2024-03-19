@@ -52,10 +52,10 @@ Options :
 docker run <image>:<tag>
 ```
 
-Options :
+Options:
 
-- Expose port : ``-p [host-port]:[container-port]``
-- Mount volume : ``-v [host-path]:[container-path]``
+- Expose port: ``-p <host-port>:<container-port>``
+- Mount volume: ``-v <host-path>:<container-path>``
 
 You can also use [Docker compose](Docker_Compose.md#docker-compose)
 
@@ -71,6 +71,16 @@ docker container stop <container-id>
 docker container rm <container-id>
 ```
 
+Options:
+
+- Follow logs: `-f` or `--follow`
+- Get last n lines: `--tail <number-of-lines>`
+- Add timestamps: `--timestamps`
+### Show container logs
+
+```bash
+docker container logs <container-id>
+```
 ### Execute command in container
 
 ``` bash
@@ -105,12 +115,12 @@ docker network create --driver=overlay <name>
 docker service create --name=<service-name> <image>:<tag>
 ```
 
-Options :
+Options:
 
-- Use a network : ``--network=<network-name>``
-- Expose a port : ``-p <host-port>:<container-port>``
-- Pass environnement variable : ``-e <variable-name>=<value>``
-- Mount a volume : ``--mount type=bind,source="<host-path>",target="<container-path>"``
+- Use a network: ``--network=<network-name>``
+- Expose a port: ``-p <host-port>:<container-port>``
+- Pass environnement variable: ``-e <variable-name>=<value>``
+- Mount a volume: ``--mount type=bind,source="<host-path>",target="<container-path>"``
 
 ### Scale Service
 
