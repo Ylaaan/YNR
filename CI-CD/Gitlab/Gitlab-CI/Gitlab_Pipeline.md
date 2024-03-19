@@ -2,7 +2,7 @@
 
 - [Pre-filled variables](#Pre-filled%20variables)
 
-## CI-Variables
+## 🔡CI-Variables🔢
 
 CI variables can be set at the project or group level, note that only owners cat modify group variables.
 
@@ -28,7 +28,7 @@ Variables can also be used in specific environments only.
 | Protected | Disallow use of this variable outside protected branches      |
 
 
-## Pre-filled variables
+## 🎛Pre-filled variables🎛
 
 This will only work in the global `variables:` field.
 
