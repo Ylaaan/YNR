@@ -20,6 +20,7 @@
 	- [Change file rights](#Change%20file%20rights)
 	- [Change owner of file](#Change%20owner%20of%20file)
 	- [Change owner group of file](#Change%20owner%20group%20of%20file)
+	- [Get file name from bath](#Get%20file%20name%20from%20bath)
 - [📊System Checks📊](#%F0%9F%93%8ASystem%20Checks%F0%9F%93%8A)
 	- [Check running processes](#Check%20running%20processes)
 	- [Check file system](#Check%20file%20system)
@@ -153,6 +154,17 @@ echo "<content-to-add>" >|>> <file>
 Use ``>`` to replace content.
 Use ``>>`` to append.
 
+### Get file name from bath
+
+```bash
+basename <path> <suffix>
+```
+
+Options: 
+
+- You can specify a suffix (file extension) to exclude it from the output the option does the same thing `-s`
+- Multiple paths at once : `-a`
+
 ## ✔️POSIX permissions❌
 
 ### Execute file with root permissions
@@ -185,7 +197,7 @@ Options :
 chgrp <new-group> <file>
 ```
 
-Options :
+Options:
 
 - Verbose : ``-v`` or ``--verbose``
 - Verbose but only when changes are applied : ``-c`` or ``--changes``
