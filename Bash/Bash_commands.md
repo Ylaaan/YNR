@@ -48,12 +48,12 @@ pwd
 cd <path>
 ```
 
-Path structure :
+Path structure:
 
-- Path of parent directory : ``../``
-- Path of current directory : ``./``
-- Path of home directory : ``~/``
-- Path of root directory : ``/``
+- Path of parent directory: ``../``
+- Path of current directory: ``./``
+- Path of home directory: ``~/``
+- Path of root directory: ``/``
 
 ### Locate binary, source, manual-page files of a command
 
@@ -63,9 +63,9 @@ whereis <name>
 
 Options :
 
-- Search for binaries only : ``-b``
-- Search manuals and info  only : ``-m``
-- Search for sources only : ``-s``
+- Search for binaries only: ``-b``
+- Search manuals and info  only: ``-m``
+- Search for sources only: ``-s``
 
 ### Check current user
 
@@ -97,14 +97,14 @@ ls <directory-to-list>
 
 Options :
 
-- Also list hidden files : ``-a`` or ``--all``
-- List files permissions : ``-l``
-- Human-readable mode : ``-h``
-- List with colors : ``-C``
-- Only list directories : ``-d`` or ``--directory``
-- Show inodes : ``-i``
-- Recursive mode : ``-R`` or ``--recursive``
-- One file per line : ``-1``
+- Also list hidden files: ``-a`` or ``--all``
+- List files permissions: ``-l``
+- Human-readable mode: ``-h``
+- List with colors: ``-C``
+- Only list directories: ``-d`` or ``--directory``
+- Show inodes: ``-i``
+- Recursive mode: ``-R`` or ``--recursive``
+- One file per line: ``-1``
 
 ### Print file's content
 
@@ -118,9 +118,9 @@ cat <file-path>
 cp <source-path> <destination-path>
 ```
 
-Options :
+Options:
 
-- Copy recursively : ``-r``
+- Copy recursively: ``-r``
 
 ### Move files
 
@@ -136,8 +136,8 @@ rm <file-path>
 
 Options :
 
-- Remove even if not empty : ``-f``
-- Remove even if file is a directory : ``-r``
+- Remove even if not empty: ``-f``
+- Remove even if file is a directory: ``-r``
 
 ### Create file
 
@@ -163,7 +163,7 @@ basename <path> <suffix>
 Options: 
 
 - You can specify a suffix (file extension) to exclude it from the output the option does the same thing `-s`
-- Multiple paths at once : `-a`
+- Multiple paths at once: `-a`
 
 ## ✔️POSIX permissions❌
 
@@ -185,11 +185,11 @@ chmod +<r;w;x> <file-path>
 chown <new-owner>:<new-group> <file>
 ```
 
-Options :
+Options:
 
-- Verbose : ``-v`` or ``--verbose``
-- Verbose but only when changes are applied : ``-c`` or ``--changes``
-- Recursive mode : ``-R`` or ``--recursive``
+- Verbose: ``-v`` or ``--verbose``
+- Verbose but only when changes are applied: ``-c`` or ``--changes``
+- Recursive mode: ``-R`` or ``--recursive``
 
 ### Change owner group of file
 
@@ -199,9 +199,9 @@ chgrp <new-group> <file>
 
 Options:
 
-- Verbose : ``-v`` or ``--verbose``
-- Verbose but only when changes are applied : ``-c`` or ``--changes``
-- Recursive mode : ``-R`` or ``--recursive``
+- Verbose: ``-v`` or ``--verbose``
+- Verbose but only when changes are applied: ``-c`` or ``--changes``
+- Recursive mode: ``-R`` or ``--recursive``
 
 ## 📊System Checks📊
 
@@ -213,9 +213,9 @@ ps <options>
 
 Options :
 
-- List all processes : ``-A``
-- Only running : ``-r``
-- All processes on this terminal : ``-T``
+- List all processes: ``-A``
+- Only running: ``-r``
+- All processes on this terminal: ``-T``
 
 ### Check file system
 
@@ -225,9 +225,9 @@ df <options>
 
 Options :
 
-- Human readable : ``-h``
-- Show all : ``-a`` or ``--all``
-- Show only local : ``-l`` or ``--local``
+- Human readable: ``-h``
+- Show all: ``-a`` or ``--all``
+- Show only local: ``-l`` or ``--local``
 
 ### Check file size
 
@@ -235,10 +235,10 @@ Options :
 du <options> <./*>
 ```
 
-Options :
+Options:
 
-- Summarize : ``-s``
-- Human-readable mode : ``-h``
+- Summarize: ``-s``
+- Human-readable mode: ``-h``
 
 ## ⛰️Environment variables🏞️
 
@@ -254,9 +254,9 @@ env
 export <name>=<value>
 ```
 
-Options :
+Options:
 
-- Show exported variables : ``-p``
+- Show exported variables: ``-p``
 
 ## 💻 .bashrc 💻
 
