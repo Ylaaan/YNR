@@ -14,3 +14,7 @@ Options:
 - Specify a user: `--user=<user>`
 - Specify a password: `--password=<password>`
 - Start from last progress: `-c`
+- Specify timeout: `-T` or `--timeout`
+- Don't use proxy: `--no-proxy`
+
+[Official documentation](https://www.gnu.org/software/wget/manual/)
