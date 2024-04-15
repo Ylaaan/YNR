@@ -18,7 +18,7 @@ Many kubertes objects have labels, they are a regular tag system.
 
 You can define as many labels as you want in a ``YAML`` definition.
 
-Example :
+Example:
 
 ```yaml
 apiVersion: v1

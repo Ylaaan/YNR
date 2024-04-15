@@ -8,7 +8,7 @@
   - [🔴Restart the control plane🟢](#restart-the-control-plane)
   - [📜Configure kubectl with the new certificates📜](#configure-kubectl-with-the-new-certificates)
 
-On the master node :
+On the master node:
 
 ## 🔄Renew the certificates🔄
 

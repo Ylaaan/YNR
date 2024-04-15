@@ -33,7 +33,7 @@ flowchart LR
 
 ## Definition
 
-Example :
+Example:
 
 ```yaml
 apiVersion: apps/v1
@@ -43,7 +43,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app : app1
+      app: app1
   template:
     metadata:
       labels:

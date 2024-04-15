@@ -74,7 +74,7 @@ git status
 git add <files>
 ```
 
-For all files : ``*``
+For all files: ``*``
 
 ### Unstage file (doesn't cancel changes)
 
@@ -88,9 +88,9 @@ git reset
 git diff
 ```
 
-Options :
+Options:
 
-- Show non commited ch.anges : ``--staged``
+- Show non commited ch.anges: ``--staged``
 
 ### Commit changes
 
@@ -98,9 +98,9 @@ Options :
 git commit -m "<message>"
 ```
 
-Options :
+Options:
 
-- Commit message : ``-m "<message>"``
+- Commit message: ``-m "<message>"``
 
 ---
 
@@ -136,9 +136,9 @@ git merge <branch-name>
 git log
 ```
 
-Options :
+Options:
 
-- Follow changes across renames : ``--follow``
+- Follow changes across renames: ``--follow``
 
 ---
 

@@ -20,7 +20,7 @@ A taint doesn't tell a pod to go to a node. It only tells pods NOT to go to one.
 kubectl taint nodes <node-name> key=value:<NoSchedule|PreferNoSchedule|NoExecute>
 ```
 
-Note :
+Note:
 
 - Adding a `-` to the end of an existing taint will delete it from the node.
 - `NoSchedule` will prevent new pods from being scheduled.
@@ -30,7 +30,7 @@ Note :
 
 Set in the definition.
 
-Example :
+Example:
 
 ```yaml
 apiVersion: v1
@@ -42,7 +42,7 @@ spec:
   - name: app1
     image: image1
   tolerations:
-  - key : "key"
+  - key: "key"
     operator: "Equal"
     value: "value1"
     effect: "NoSchedule"
@@ -52,7 +52,7 @@ spec:
 
 A node selector is a way of telling the scheduler to put a pod in a specific node. You can definite that node selector in the definition of the pod.
 
-Example :
+Example:
 
 ```yaml
 apiVersion: v1
@@ -75,7 +75,7 @@ Node affinity if a finer way of controlling wich pod is schedules on which node.
 
 They can still be set in the definition although they are more complex.
 
-Example :
+Example:
 
 ```yaml
 apiVersion: v1
@@ -91,7 +91,7 @@ spec:
       requiredDuringSchedulingIgnoredDuringExecution:
         nodeSelectorTerms:
         - matchExpressions:
-          - key : key
+          - key: key
             operator: In
             values:
             - value1

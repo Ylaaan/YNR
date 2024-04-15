@@ -8,7 +8,7 @@
 
 ## Definition
 
-You can define a service with a YAML file :
+You can define a service with a YAML file:
 
 ```yaml
 apiVersion: v1

@@ -18,7 +18,7 @@ You must first and foremost [generate a private key and configure it on the remo
 
 ## 🕐Before-script🧮
 
-Add the following `before-script:` block to your job :
+Add the following `before-script:` block to your job:
 ```bash
 before_script:
   ##

@@ -6,7 +6,7 @@
 
 CI variables can be set at the project or group level, note that only owners cat modify group variables.
 
-> Be careful : Variables keys, cannot contain `-` characters.
+> Be careful: Variables keys, cannot contain `-` characters.
 
 Variables can also be used in specific environments only.
 
@@ -43,7 +43,7 @@ variables:
     description: "Service à deployer."
 ```
 
-fields : 
+fields: 
 - `value:` Mandatory field, give a default value to the variable, of the field `options` is present, the value need to be in that list.
 - `options:` optional field, gives the user a drop down list of options when running pipeline
 - `description` optional field, gives the user a description of what the variable is for

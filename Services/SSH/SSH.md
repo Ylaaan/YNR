@@ -21,9 +21,9 @@
 ssh <username>@<hostname>
 ```
 
-Options :
+Options:
 
-- Specify a private key : `-i <path-to-private-key>`
+- Specify a private key: `-i <path-to-private-key>`
 
 ## 🔑Setup a private key connection🔑
 
@@ -33,10 +33,10 @@ Options :
 ssh-keygen
 ```
 
-Options :
+Options:
 
-- Specify a encrypting protocol : `-t <protocol>`
-- Specify key length in bytes : `-b <number-of-bytes>`
+- Specify a encrypting protocol: `-t <protocol>`
+- Specify key length in bytes: `-b <number-of-bytes>`
 
 If you don't want a passphrase, leave the prompt blank.
 
@@ -44,7 +44,7 @@ If you don't want a passphrase, leave the prompt blank.
 
 #### ssh-copy-id
 
-If available use the following method :
+If available use the following method:
 
 ```bash
 ssh-copy-id <username>@<hostname>
@@ -62,13 +62,13 @@ cat ~/.ssh/id_rsa.pub | ssh <username>@<hostname> "mkdir -p ~/.ssh && cat >> ~/.
 
 #### Copy manually
 
-**On the host**, Copy the public key's content :
+**On the host**, Copy the public key's content:
 
 ```bash
 cat ~/.ssh/id_rsa.pub
 ```
 
-**On the remote**, execute the following commands :
+**On the remote**, execute the following commands:
 
 ```bash
 mkdir -p ~/.ssh
@@ -91,7 +91,7 @@ Make sure your home directory doesn't have more than 755 permissions (drwxr-xr-x
 
 ### Modify sshd config
 
-Open the file :
+Open the file:
 
 ```bash
 sudo vim /etc/ssh/sshd_config

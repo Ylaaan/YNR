@@ -26,9 +26,9 @@ The docker compose file is a YAML file, it allows the user to use a file definit
 docker compose ls
 ```
 
-Options :
+Options:
 
-- Also list stopped composes : ``-a``
+- Also list stopped composes: ``-a``
 
 ### Build image from docker compose
 
@@ -36,7 +36,7 @@ Options :
 docker compose build
 ```
 
-Options :
+Options:
 
 - Run without cache:`--no-cache`
 
@@ -46,10 +46,10 @@ Options :
 docker compose up
 ```
 
-Options :
+Options:
 
-- Run in background : ``-d``
-- Specify file : ``-f <file-name>``
+- Run in background: ``-d``
+- Specify file: ``-f <file-name>``
 - Specify `.env` file: `--env-file=<file-name>`
 
 ### Bring compose down
@@ -58,10 +58,10 @@ Options :
 docker compose down
 ```
 
-Options :
+Options:
 
 - Specify `.env` file: `--env-file=<file-name>`
-- Also remove volumes : ``--volumes``
+- Also remove volumes: ``--volumes``
 
 ### List containers running from compose
 

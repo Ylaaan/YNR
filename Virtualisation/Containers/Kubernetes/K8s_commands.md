@@ -95,13 +95,13 @@ kubectl config set-context --current --namespace=<namespace>
 kubectl get <object>
 ```
 
-Options :
+Options:
 
-- More info : `-o wide`
-- Get YAML format : `-o yaml`
-- Get JSON format : `-o json`
-- All namespaces : `-A`
-- Specific namespace : `-n=<name>`
+- More info: `-o wide`
+- Get YAML format: `-o yaml`
+- Get JSON format: `-o json`
+- All namespaces: `-A`
+- Specific namespace: `-n=<name>`
 
 ### Describe Objects
 
@@ -115,7 +115,7 @@ kubectl describe <object>
 kubectl get <object> -o yaml
 ```
 
-You can also get the definition in a cleaner manner, edit the configuration :
+You can also get the definition in a cleaner manner, edit the configuration:
 
 ```bash
 kubectl edit <object>
@@ -135,9 +135,9 @@ kubectl scale <object> --replicas=<number-of-replicas>
 kubectl create -f <path-to-file>
 ```
 
-Options :
+Options:
 
-- Dry run : `--dry-run=client`
+- Dry run: `--dry-run=client`
 
 ### Update/Create an Object form YAML definition
 
@@ -145,9 +145,9 @@ Options :
 kubectl apply -f <path-to-file>
 ```
 
-Options :
+Options:
 
-- Dry run : `--dry-run=client`
+- Dry run: `--dry-run=client`
 
 ---
 
@@ -159,12 +159,12 @@ Options :
 kubectl exec <pod> -- <command>
 ```
 
-Options :
+Options:
 
-- Interactive mode : `-it`
-- Specify specific container : `-c <container>`
+- Interactive mode: `-it`
+- Specify specific container: `-c <container>`
 
-Example :
+Example:
 
 - `kubectl exec -it <pod> -- bash`
 
@@ -180,10 +180,10 @@ kubectl cp <file-to-copy> <pod>:<where-to-copy>
 kubectl logs <pod-name>
 ```
 
-Options :
+Options:
 
-- Get logs from all containers in pod : `--all-containers`
-- Get logs from a delete pod : `--previous <pod-name>`
+- Get logs from all containers in pod: `--all-containers`
+- Get logs from a delete pod: `--previous <pod-name>`
 
 ## 🎛️Node commands🎛️
 
@@ -209,7 +209,7 @@ kubectl top nodes
 
 ### Get Kubelet logs of a node
 
-On a kubernetes node :
+On a kubernetes node:
 
 ```bash
 journalctl -u kubelet

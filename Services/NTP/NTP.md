@@ -17,7 +17,7 @@ The configuration is generally situated in `/etc/ntp.conf`
 
 ## 🔁Restart the NTP client🔁
 
-Either :
+Either:
 
 ```bash
 sytemctl restart ntp
@@ -29,7 +29,7 @@ or (CentOS)
 systemctl restart ntpd
 ```
 
-Note : Sometimes, Chrony is used instead of the classic NTP client, in that case use `chrony` or `chronyd`
+Note: Sometimes, Chrony is used instead of the classic NTP client, in that case use `chrony` or `chronyd`
 
 ## 💹Check NTP stat💹
 
@@ -39,7 +39,7 @@ Note : Sometimes, Chrony is used instead of the classic NTP client, in that case
 ntpstatus
 ```
 
-To see the server list and info :
+To see the server list and info:
 
 ```bash
 ntpq -pn

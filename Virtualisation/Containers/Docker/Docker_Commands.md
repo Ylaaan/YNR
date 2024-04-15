@@ -42,9 +42,9 @@ docker ps
 docker container ls
 ```
 
-Options :
+Options:
 
-- Include stopped containers : ``-a``
+- Include stopped containers: ``-a``
 
 ### Start container
 
