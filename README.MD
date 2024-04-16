@@ -12,3 +12,25 @@ The main goal to prevent having to read the full documentations and gain time by
 - Emojis can be used on headers. (Typically level 2 headers)
 
 - The only exception is the use of [Mermaid](https://mermaid.js.org/) to create various graphs
+
+### Command showcase
+
+This is an example of a command showcase:
+
+#### Example with echo
+
+```bash
+echo "<string>"
+```
+
+Options:
+
+- Use escaping characters: `-e`
+- Display help: `help`
+
+### Options and arguments
+
+You should follow the following format:
+- `<mandatory-element>`
+- `[optional-element]`
+- `{either-this-elelment|either-that-element}`
