@@ -1,29 +1,14 @@
-# Documentation
 
-## Table of contents
+# 👋Welcome 👋
+## ❓What is this repository❓
 
-- [Documentation](#documentation)
-  - [Table of contents](#table-of-contents)
-  - [Goal](#goal)
-  - [Structure](#structure)
-  - [Syntax](#syntax)
-
-## Goal
-
-This repository is a cluster of personnal documentations.
+This repository is a cluster of personal documentations.
 The main goal is preventing having to read the full documentation of each tool and gain time by having a neat, summed-up and simple documentation for all kind of softwares and tools.
 
-## Structure
+## ✅Requirements⛔
 
-Here is the folder structure you should follow:
+- This documentation is written in [basic Markdown](https://www.markdownguide.org/basic-syntax/) to allow for broad compatibility.
 
-```mermaid
-flowchart TD
-    subgraph Documentation
-            Category_Dir --> Subcategory_Dir --> Subject_Dir --> Markdown_File
-    end
-```
+- Emojis can be used on headers. (Typically level 2 headers)
 
-## Syntax
-
-This documentation is written in markdown, with mermaid diagrams integrated into it. As such it should follow most recommendations for the markdown language.
+- The only exception is the use of [Mermaid](https://mermaid.js.org/) to create various graphs
