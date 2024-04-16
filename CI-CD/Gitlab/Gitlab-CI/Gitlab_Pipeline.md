@@ -10,16 +10,14 @@ CI variables can be set at the project or group level, note that only owners cat
 
 Variables can also be used in specific environments only.
 
-
 ### Types
 
 |   Type   | Description               | Default |
-|:--------:|:------------------------- |:-------:|
-| Variable | Regular variable type     |   ✅    |
-|   File   | Treats variable as a file |   ❌    |
+| :------: | :------------------------ | :-----: |
+| Variable | Regular variable type     |    ✅    |
+|   File   | Treats variable as a file |    ❌    |
 
 ### Flags
-
 
 |   Flags   | Description                                                   |
 |:---------:|:------------------------------------------------------------- |
