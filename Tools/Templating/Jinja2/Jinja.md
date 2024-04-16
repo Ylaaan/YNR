@@ -1,4 +1,4 @@
-# Jinja2 templates
+# Jinja templates
 
 - [Variables](#Variables)
 - [For loops](#For%20loops)
@@ -6,6 +6,8 @@
 	- [Templates](#Templates)
 	- [Variables](#Variables)
 	- [Usage](#Usage)
+
+[Official documentation](https://jinja.palletsprojects.com/en/3.0.x/)
 
 Jinja allows you to generate text based files from templates.
 
@@ -58,7 +60,7 @@ ENTRYPOINT ["jinja2"]
 
 ### Templates
 
-You can simply place your Jinja2 templates in the template directory.
+You can simply place your Jinja templates in the template directory.
 
 ### Variables
 
@@ -154,4 +156,4 @@ docker run --rm \
 dinutac/jinja2docker:latest /templates/standalone.j2 /variables/variables.yml --format=yaml > docker-compose.yml
 ```
 
-You can also use the Json format.
+You can also use the `Json` format.
