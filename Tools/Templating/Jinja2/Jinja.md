@@ -1,11 +1,12 @@
 # Jinja templates
 
-- [Variables](#Variables)
-- [For loops](#For%20loops)
-- [Use Jinja in docker](#Use%20Jinja%20in%20docker)
+- [🎛Variables🎛](#%F0%9F%8E%9BVariables%F0%9F%8E%9B)
+- [🔁For loops🔁](#%F0%9F%94%81For%20loops%F0%9F%94%81)
+- [⛩Use Jinja in docker🐳](#%E2%9B%A9Use%20Jinja%20in%20docker%F0%9F%90%B3)
 	- [Templates](#Templates)
 	- [Variables](#Variables)
 	- [Usage](#Usage)
+
 
 [Official documentation](https://jinja.palletsprojects.com/en/3.0.x/)
 
@@ -17,7 +18,7 @@ It includes functionalities such as:
 
 It can be used very easily in Python with the `jinja2` library as well as the [jinja2-cli](https://github.com/mattrobenolt/jinja2-cli) package
 
-## Variables
+## 🎛Variables🎛
 
 In templates, variables follow the following scheme:
 ```jinja2
@@ -25,7 +26,7 @@ In templates, variables follow the following scheme:
 ```
 
 
-## For loops
+## 🔁For loops🔁
 
 ```jinja2
 {%- for <VAR> in <LIST> %}
@@ -33,7 +34,7 @@ In templates, variables follow the following scheme:
 {% endfor %}
 ```
 
-## Use Jinja in docker
+## ⛩Use Jinja in docker🐳
 
 [Original idea and source code](https://github.com/dinuta/jinja2docker) 
 
