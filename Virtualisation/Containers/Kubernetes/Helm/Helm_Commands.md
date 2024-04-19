@@ -25,7 +25,7 @@ Options :
 ### Show release status
 
 ```bash
-helm status [release]
+helm status <release>
 ```
 
 Options :
@@ -35,7 +35,7 @@ Options :
 ### Show release history
 
 ```bash
-helm history [release]
+helm history <release>
 ```
 
 ## ⏸ Managing commands 🔄
@@ -43,25 +43,25 @@ helm history [release]
 ### Install a chart
 
 ```bash
-helm install [name] [chart]
+helm install <name> <chart>
 ```
 
 Options :
 
-- Install in specific namespace : `--namespace [namespace]`
-- Specify a YAML value file : `--values [file]`
+- Install in specific namespace : `--namespace <namespace>`
+- Specify a YAML value file : `--values <file>`
 - Dry run : `--dry-run --debug`
 
 ### Uninstall a release
 
 ```bash
-helm unistall [name]
+helm unistall <name>
 ```
 
 ### Upgrade a release
 
 ```bash
-helm upgrade [release] [chart]
+helm upgrade <release> <chart>
 ```
 
 Options :
@@ -73,14 +73,14 @@ Options :
 ### Rollback to specific revision
 
 ```bash
-helm rollback [release] [revision]
+helm rollback <release> <revision>
 ```
 
 Options :
 
 - Remove newly create ressources on fail : `--cleanup-on-fail`
 
-## Repository commands
+## 🏗Repository commands🖥
 
 ### List repositories
 
@@ -91,7 +91,7 @@ helm repo list
 ### Add Helm repository
 
 ```bash
-helm repo add [repository-name] [repository-url]
+helm repo add <repository-name> <repository-url>
 ```
 
 ### Helm repositories update
@@ -111,16 +111,16 @@ helm repo remove
 #### In Repositories
 
 ```bash
-helm search repo [keyword]
+helm search repo <keyword>
 ```
 
 #### In Hub
 
 ```bash
-helm search hub [keyword]
+helm search hub <keyword>
 ```
 
-## Other commands
+## 🎛Other commands🎛
 
 ### Show Helm ENV variables
 

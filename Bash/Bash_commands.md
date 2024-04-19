@@ -148,7 +148,7 @@ touch <file-path>
 ### Add content in file without editor
 
 ```bash
-echo "<content-to-add>" >|>> <file>
+echo "<content-to-add>" {>|>>} <file>
 ```
 
 Use ``>`` to replace content.

@@ -33,9 +33,9 @@ The file must be named "**Dockerfile**".
 
 This is not included in the execution of the file.
 
-### Multiline
+### Multi line
 
-You can use the backslash to make multinline commands.
+You can use the backslash to make multi line commands.
 
 ```dockerfile
 RUN echo this is \
@@ -46,7 +46,7 @@ a multiline command
 
 ### Use a Docker image as a base
 
-**Be carefull :** This must be used at the begining of the file!
+**Be careful :** This must be used at the beginning of the file!
 
 ```dockerfile
 FROM <image>:<tag>

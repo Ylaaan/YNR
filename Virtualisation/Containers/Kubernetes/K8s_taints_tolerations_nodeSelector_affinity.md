@@ -17,7 +17,7 @@ A taint doesn't tell a pod to go to a node. It only tells pods NOT to go to one.
 ### Taint a node
 
 ```bash
-kubectl taint nodes <node-name> key=value:<NoSchedule|PreferNoSchedule|NoExecute>
+kubectl taint nodes <node-name> key=value:{NoSchedule|PreferNoSchedule|NoExecute}
 ```
 
 Note:

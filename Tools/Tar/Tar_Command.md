@@ -27,7 +27,7 @@ Options:
 ### Create an archive file from the file README.txt and directory src
 
 ```bash
-tar -cvf <archive_name>.tar README.txt src
+tar -cvf <archive_name>.tar README.txt <src>
 ```
 
 ### Extract contents for the into the current directory
