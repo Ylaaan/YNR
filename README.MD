@@ -1,4 +1,4 @@
-# 👋Welcome 👋
+# 👋Welcome to YNR (Ylaan's Notes Repository) 👋
 
 ## ❓What is this repository❓
 
