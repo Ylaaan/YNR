@@ -6,7 +6,7 @@ This repository is a cluster of personal notes.
 The main goal to prevent having to read the full documentations and gain time by having a neat, summed-up and simple note repository for all kind of softwares and tools.
 ## ✅Requirements⛔
 
-- This documentation is written in [basic Markdown](https://www.markdownguide.org/basic-syntax/) to allow for broad compatibility.
+- Theses notes is written in [basic Markdown](https://www.markdownguide.org/basic-syntax/) to allow for broad compatibility.
 
 - Emojis can be used on headers. (Typically level 2 headers)
 
