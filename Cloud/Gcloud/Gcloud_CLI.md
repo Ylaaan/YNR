@@ -103,8 +103,13 @@ gcloud storage buckets notifications create gs://<bucket-name> --topic=<topic-na
 #### Pull answer from subscription
 
 ```bash
-gcloud pubsub subscriptions pull <subscription-name> --limit 5 --auto-ack
+gcloud pubsub subscriptions pull <subscription-name>
 ```
+
+Options:
+
+- Change the default limit of messages received: `--limit=<number-of-messages>`
+- Enable auto-acknowledgment (You probably want this) : `--auto-ack`
 
 #### Create scheduler job to send messages to Pub/Sub
 
@@ -119,13 +124,21 @@ gcloud scheduler jobs create pubsub <job-name> --location=<location> --schedule=
 gcloud secrets create <secrect-name> --replication-policy=automatic --data-file=<file>
 ```
 
+Notes:
+
+You can echo a string directly into the secret by doing this:
+
+```bash
+echo "<message>" | gcloud secrets create <secraft-name> --data-file=-
+```
+
 #### Access secret
 
 ```bash
 gcloud secrets versions access 1 --secret=<secret-name>
 ```
 
-#### Give access to services account
+#### Give access to serviceAccounts
 
 ```bash
 gcloud secrets add-iam-policy-binding <secret-name> --member="serviceAccount:<service-account>" --role="roles/secretmanager.secretAccessor"
