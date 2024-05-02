@@ -1,13 +1,5 @@
 # Jinja templates
 
-- [🎛Variables🎛](#%F0%9F%8E%9BVariables%F0%9F%8E%9B)
-- [🔁For loops🔁](#%F0%9F%94%81For%20loops%F0%9F%94%81)
-- [⛩Use Jinja in docker🐳](#%E2%9B%A9Use%20Jinja%20in%20docker%F0%9F%90%B3)
-	- [Templates](#Templates)
-	- [Variables](#Variables)
-	- [Usage](#Usage)
-
-
 [Official documentation](https://jinja.palletsprojects.com/en/3.0.x/)
 
 Jinja allows you to generate text based files from templates.

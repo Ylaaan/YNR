@@ -1,15 +1,5 @@
 # K8s labels and selectors
 
-## Table of contents
-
-- [K8s labels and selectors](#k8s-labels-and-selectors)
-  - [Table of contents](#table-of-contents)
-  - [🚩Labels🚩](#labels)
-    - [Definition](#definition)
-    - [Label a node](#label-a-node)
-    - [Use](#use)
-  - [💬Annotations💬](#annotations)
-
 ## 🚩Labels🚩
 
 Many kubertes objects have labels, they are a regular tag system.

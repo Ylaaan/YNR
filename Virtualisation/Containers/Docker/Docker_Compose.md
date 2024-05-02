@@ -1,19 +1,5 @@
 # Docker Compose
 
-## Table of contents
-
-- [Docker Compose](#docker-compose)
-  - [Table of contents](#table-of-contents)
-  - [Commands](#commands)
-    - [List compose projects](#list-compose-projects)
-    - [Build image from docker compose](#build-image-from-docker-compose)
-    - [Bring compose up](#bring-compose-up)
-    - [Bring compose down](#bring-compose-down)
-    - [List containers running from compose](#list-containers-running-from-compose)
-    - [Get logs from compose containers](#get-logs-from-compose-containers)
-  - [📚Syntax 📚](#syntax-)
-    - [Networks](#networks)
-
 [Docker Commands](Docker_Commands.md#docker-commands)
 
 The docker compose file is a YAML file, it allows the user to use a file definition of a container instead of using commands.

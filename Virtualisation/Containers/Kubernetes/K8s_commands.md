@@ -1,35 +1,5 @@
 # K8s Commands
 
-## Table of contents
-
-- [K8s Commands](#k8s-commands)
-  - [Table of contents](#table-of-contents)
-  - [📊Overview Graph🗺️](#overview-graph️)
-  - [🧩Kubernetes Objects🧩](#kubernetes-objects)
-  - [🎓Basic commands🎓](#basic-commands)
-    - [Configure kubectl](#configure-kubectl)
-    - [Join a namespace](#join-a-namespace)
-    - [List Objects](#list-objects)
-    - [Describe Objects](#describe-objects)
-    - [Get YAML definition of an object](#get-yaml-definition-of-an-object)
-    - [Scale a statefulset/deployment](#scale-a-statefulsetdeployment)
-    - [Create an Object form YAML definition](#create-an-object-form-yaml-definition)
-    - [Update/Create an Object form YAML definition](#updatecreate-an-object-form-yaml-definition)
-  - [📦Pod commands📦](#pod-commands)
-    - [Execute command on a pod (Similar to docker exec exec)](#execute-command-on-a-pod-similar-to-docker-exec-exec)
-    - [Copy file inside pod](#copy-file-inside-pod)
-    - [Get logsform a pod](#get-logsform-a-pod)
-  - [🎛️Node commands🎛️](#️node-commands️)
-    - [Disable scheduling on a node](#disable-scheduling-on-a-node)
-    - [Enable scheduling on a node](#enable-scheduling-on-a-node)
-    - [See Nodes hardware usage (CPU,MEMORY)](#see-nodes-hardware-usage-cpumemory)
-  - [👨‍✈️Kubelet👨‍✈️](#️kubelet️)
-    - [Get Kubelet logs of a node](#get-kubelet-logs-of-a-node)
-    - [Restart kubelet](#restart-kubelet)
-  - [📑Certificates📑](#certificates)
-    - [Check certificates expirations](#check-certificates-expirations)
-    - [Renew certificates](#renew-certificates)
-
 You can also manage your Kubernetes apps with [Helm](Helm/Helm_Commands.md)
 
 ## 📊Overview Graph🗺️

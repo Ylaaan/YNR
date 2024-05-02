@@ -1,15 +1,6 @@
 # Jenkins Pipeline
 
 [Full syntax documentation](https://www.jenkins.io/doc/book/pipeline/syntax)
-
-## Table of contents
-
-- [Jenkins Pipeline](#jenkins-pipeline)
-  - [Table of contents](#table-of-contents)
-  - [Syntax](#syntax)
-    - [Pipeline Block](#pipeline-block)
-    - [Post Execution](#post-execution)
-
 ## Syntax
 
 ### Pipeline Block

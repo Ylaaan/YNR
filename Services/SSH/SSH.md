@@ -1,20 +1,5 @@
 # SSH
 
-## Table of contents
-
-- [SSH](#ssh)
-  - [Table of contents](#table-of-contents)
-  - [📡SSH command📡](#ssh-command)
-  - [🔑Setup a private key connection🔑](#setup-a-private-key-connection)
-    - [Generate a private key on your host](#generate-a-private-key-on-your-host)
-    - [Copy the public key to the remote destination](#copy-the-public-key-to-the-remote-destination)
-      - [ssh-copy-id](#ssh-copy-id)
-      - [copy with SSH](#copy-with-ssh)
-      - [Copy manually](#copy-manually)
-  - [⛔Disable password login (Optional but recommended)⛔](#disable-password-login-optionnal-but-recommended)
-    - [Modify sshd config](#modifiy-sshd-config)
-    - [Restart the SSH service](#restart-the-ssh-service)
-
 ## 📡SSH command📡
 
 ```bash

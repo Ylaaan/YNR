@@ -1,16 +1,5 @@
 # NTP
 
-## Table of contents
-
-- [NTP](#ntp)
-  - [Table of contents](#table-of-contents)
-  - [📜Configure NTP client📜](#configure-ntp-client)
-  - [🔁Restart the NTP client🔁](#restart-the-ntp-client)
-  - [💹Check NTP stat💹](#check-ntp-stat)
-    - [Classic NTP](#classic-ntp)
-    - [Chrony](#chrony)
-  - [📆Check server date📆](#check-server-date)
-
 ## 📜Configure NTP client📜
 
 The configuration is generally situated in `/etc/ntp.conf`
