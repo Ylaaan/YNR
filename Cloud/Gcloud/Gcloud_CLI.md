@@ -1,6 +1,6 @@
 # Gcloud
 
-## Install
+## ⤵Install⤵
 
 [Install page](https://cloud.google.com/sdk/docs/install)
 
@@ -105,7 +105,7 @@ Notes:
 You can echo a string directly into the secret by doing this:
 
 ```bash
-echo "<secret-string>" | gcloud secrets create <secraft-name> --data-file=-
+echo "<secret-string>" | gcloud secrets create <secret-name> --data-file=-
 ```
 
 ### Access secret
@@ -122,6 +122,26 @@ gcloud secrets add-iam-policy-binding <secret-name> --member="serviceAccount:<se
 
 ## 📄Instance Template📄
 
-### Create template from cli:
+### Create template from CLI:
 
 [Official documentation]([https://cloud.google.com/sdk/gcloud/reference/compute/instance-templates/create#--description](https://cloud.google.com/sdk/gcloud/reference/compute/instance-templates/create#--description "https://cloud.google.com/sdk/gcloud/reference/compute/instance-templates/create#--description"))
+
+## 🐳GKE (Google Kubernetes Engine)🛳
+
+Used using Cloud Run
+
+### Deploy app 
+
+```bash
+gcloud run deploy <name> \
+--image=<image> \
+--allow-unauthenticated \
+--port=<port> \
+--service-account=<serviceAccount> \
+--memory=<memory> \
+--ingress=internal \
+--region=<region> \
+--project=<project-name>
+```
+
+
