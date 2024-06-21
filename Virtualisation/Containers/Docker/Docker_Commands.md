@@ -57,7 +57,7 @@ Options:
 
 - Follow logs: `-f` or `--follow`
 - Get last n lines: `-n` or `--tail <number-of-lines>`
-- Add timestamps: `--timestamps`
+- Add timestamps to logs: `--timestamps`
 - Get logs since a specific point in time: `--since <time/timestamp/XhXmXs>`
 - Get logs until a specific point in time: `--since <time/timestamp/XhXmXs>`
 ### Execute command in container
