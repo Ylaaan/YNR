@@ -3,7 +3,7 @@
 ## ❓What is this repository❓
 
 This repository is a cluster of personal notes.
-The main goal is to prevent having to read the full documentations and gain time by having a neat, summed-up and simple note repository for all kind of softwares and tools.
+The main goal is to prevent having to read the full documentations and gain time by having a neat, summed-up and simple note repository for all kind of software and tools.
 ## ✅Requirements⛔
 
 - Theses notes is written in [basic Markdown](https://www.markdownguide.org/basic-syntax/) to allow for broad compatibility.
