@@ -1,4 +1,4 @@
-# DockerFile
+# Dockerfile
 
 [Docker_Commands](Docker_Commands.md#docker-commands)
 
@@ -81,8 +81,49 @@ Similarly to  .gitignore files, a "**.dockerignore**" file can be created. This 
 */*/temp*
 ```
 
-### Add an exeption to the rule too
+### Add an exception to the rule too
 
 ```dockerignore
 !<file-name>
+```
+
+## Multi-staging
+
+Multi-staging is when you use multiple `FROM` statements in a Dockerfile. This can be very useful make your final docker image much smaller.
+
+You can set a `as <name>` parameter at the end of the `FROM` statement to set a name for your stage.
+
+To copy file from one stage to the other simply use the following statement:
+
+```dockerfile
+COPY --from=<stage-name> <path-in-specified-stage> <path-in-new-stage>
+```
+
+Example:
+
+```Dockerfile
+FROM node:22-alpine3.19 as builder
+WORKDIR /srv/app/
+COPY ./app /srv/app
+RUN npm install
+
+FROM alpine:latest
+RUN apk add --update npm nodejs
+WORKDIR /srv/app/
+COPY --from=builder /srv/app /srv/app
+EXPOSE 4000
+ENTRYPOINT [ "npm", "start" ]
+```
+
+This images is approximatively 88.5mb while the original image without multi-staging is 1.3Gb.
+
+Dockerfile before multi-staging:
+
+```dockerfile
+FROM node:latest 
+WORKDIR /srv/app/ 
+COPY . /srv/app 
+RUN npm install 
+EXPOSE 4000 
+ENTRYPOINT ["npm","start"]
 ```
