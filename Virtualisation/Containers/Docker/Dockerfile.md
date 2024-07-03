@@ -102,17 +102,21 @@ COPY --from=<stage-name> <path-in-specified-stage> <path-in-new-stage>
 Example:
 
 ```Dockerfile
-FROM node:22-alpine3.19 as builder
+FROM node:latest AS build
+RUN mkdir -p /srv/app
 WORKDIR /srv/app/
-COPY ./app /srv/app
+COPY package.json package-lock.json server.js /srv/app/
 RUN npm install
 
-FROM alpine:latest
-RUN apk add --update npm nodejs
-WORKDIR /srv/app/
-COPY --from=builder /srv/app /srv/app
-EXPOSE 4000
-ENTRYPOINT [ "npm", "start" ]
+FROM build AS clean
+WORKDIR /srv/app
+RUN npm ci
+
+FROM alpine:3.19 AS final
+RUN apk --no-cache add nodejs
+WORKDIR /srv/app
+COPY --from=clean /srv/app ./
+ENTRYPOINT ["node","server.js"]
 ```
 
 This images is approximatively 88.5mb while the original image without multi-staging is 1.3Gb.
